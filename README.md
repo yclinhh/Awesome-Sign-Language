@@ -5,8 +5,8 @@
 **A curated list of sign language papers published at CCF-A venues since 2021**
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Papers](https://img.shields.io/badge/papers-93-blue)
-![CCF-A](https://img.shields.io/badge/CCF--A-77-brightgreen)
+![Papers](https://img.shields.io/badge/papers-96-blue)
+![CCF-A](https://img.shields.io/badge/CCF--A-80-brightgreen)
 ![Years](https://img.shields.io/badge/years-2021--2026-orange)
 ![Updated](https://img.shields.io/badge/updated-2026--09--28-lightgrey)
 
@@ -23,19 +23,19 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 | Direction | 2026 | 2025 | 2024 | 2023 | 2022 | 2021 | **Total** |
 |---|---|---|---|---|---|---|---|
 | ISLR | · | 1 | · | 6 | · | 3 | **10** |
-| CSLR | · | · | 1 | 8 | 1 | 3 | **13** |
-| SLT | 4 | 3 | 4 | 7 | 4 | 6 | **28** |
+| CSLR | · | 1 | 1 | 8 | 1 | 3 | **14** |
+| SLT | 4 | 5 | 4 | 7 | 4 | 6 | **30** |
 | SLP | 5 | 4 | 3 | · | 1 | 3 | **16** |
 | Retrieval | · | · | 1 | · | 1 | · | **2** |
 | Others | 2 | · | 1 | 2 | · | 3 | **8** |
 | Other Venues | 4 | · | 6 | 1 | 5 | · | **16** |
-| **Total** | **15** | **8** | **16** | **24** | **12** | **18** | **93** |
+| **Total** | **15** | **11** | **16** | **24** | **12** | **18** | **96** |
 
 ## 📋 Contents
 
 - 🤟 [Isolated Sign Language Recognition (ISLR)](#-isolated-sign-language-recognition-islr) &nbsp;`10`
-- 🎬 [Continuous Sign Language Recognition (CSLR)](#-continuous-sign-language-recognition-cslr) &nbsp;`13`
-- 🔤 [Sign Language Translation (SLT)](#-sign-language-translation-slt) &nbsp;`28`
+- 🎬 [Continuous Sign Language Recognition (CSLR)](#-continuous-sign-language-recognition-cslr) &nbsp;`14`
+- 🔤 [Sign Language Translation (SLT)](#-sign-language-translation-slt) &nbsp;`30`
 - 🧍 [Sign Language Production (SLP)](#-sign-language-production-slp) &nbsp;`16`
 - 🔍 [Sign Language Retrieval](#-sign-language-retrieval) &nbsp;`2`
 - 📚 [Others](#-others) &nbsp;`8`
@@ -85,6 +85,15 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 <p align="right"><a href="#-contents">back to top ↑</a></p>
 
 ## 🎬 Continuous Sign Language Recognition (CSLR)
+
+<details open>
+<summary><b>2025</b> &nbsp;·&nbsp; 1 paper</summary>
+
+| Title | Authors | Venue | Paper | Code | Datasets | Key Contribution |
+|:--|:--|:--|:-:|:-:|:--|:--|
+| MixSignGraph: A Sign Sequence is Worth Mixed Graphs of Nodes | Gan et al. | `NeurIPS` | [link](https://openreview.net/forum?id=YjZYMHvlRs) | — | PHOENIX-2014, PHOENIX-2014T, CSL-Daily | 在 SignGraph 基础上混合多种图结构，更好地捕捉跨区域的手语特征。 |
+
+</details>
 
 <details open>
 <summary><b>2024</b> &nbsp;·&nbsp; 1 paper</summary>
@@ -148,13 +157,15 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 </details>
 
 <details open>
-<summary><b>2025</b> &nbsp;·&nbsp; 3 papers</summary>
+<summary><b>2025</b> &nbsp;·&nbsp; 5 papers</summary>
 
 | Title | Authors | Venue | Paper | Code | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:-:|:--|:--|
 | Lost in Translation, Found in Context: Sign Language Translation with Contextual Cues | Sincan et al. | `CVPR` | [link](https://arxiv.org/abs/2501.09754) | — | BOBSL, How2Sign | 引入背景与上下文线索辅助翻译，处理指代与省略。 |
 | Uni-Sign: Toward Unified Sign Language Understanding at Scale | Li et al. | `ICLR` | [link](https://arxiv.org/abs/2501.15187) | [code](https://github.com/ZechengLi19/Uni-Sign) | CSL-Daily, PHOENIX-2014T, WLASL | 统一预训练框架，把识别、翻译与理解任务放进同一模型。 |
 | YouTube-SL-25: A Large-Scale, Open-Domain Multilingual Sign Language Parallel Corpus | Tanzer & Zhang | `ICLR` | [link](https://arxiv.org/abs/2407.11144) | — | YouTube-SL-25 | 覆盖 25 种以上手语的大规模多语种平行语料。 |
+| Bridging Sign and Spoken Languages: Pseudo Gloss Generation for Sign Language Translation | Guo et al. | `NeurIPS` | [link](https://openreview.net/forum?id=p6Huickfj7) | — | PHOENIX-2014T, CSL-Daily | 不依赖人工 gloss，自动生成伪 gloss 作为中间表示，保留两阶段翻译的结构优势。 |
+| Geo-Sign: Hyperbolic Contrastive Regularisation for Geometrically Aware Sign Language Translation | Fish & Bowden | `NeurIPS` | [link](https://openreview.net/forum?id=WkUzrUsqR9) | — | — | 把骨架特征投影到双曲空间，建模手语运动的层级结构，辅助翻译。 |
 
 </details>
 
@@ -412,9 +423,10 @@ Sign language papers from well-known venues that are **not** CCF-A in the 7th ed
 
 ## 📰 News
 
+- **2026-09-28** — Added 3 NeurIPS 2025 papers (MixSignGraph, Geo-Sign, Pseudo Gloss) found via OpenReview.
 - **2026-09-28** — Added 11 CCF-A papers from 2026 (CVPR, ACL, ICLR) and 4 from ECCV 2026, each verified against official proceedings.
 - **2026-09-28** — Reorganized by year within each direction; added stats table and new layout.
-- **2026-09-28** — First batch of 93 papers added across all sections.
+- **2026-09-28** — First batch of 96 papers added across all sections.
 - **2026-09-28** — Repository created. Added inclusion criteria and the Other Top Venues section.
 
 ## 🤝 Contributing
