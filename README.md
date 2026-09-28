@@ -5,9 +5,9 @@
 **A curated list of sign language papers published at CCF-A venues since 2021**
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Papers](https://img.shields.io/badge/papers-78-blue)
-![CCF-A](https://img.shields.io/badge/CCF--A-66-brightgreen)
-![Years](https://img.shields.io/badge/years-2021--2025-orange)
+![Papers](https://img.shields.io/badge/papers-93-blue)
+![CCF-A](https://img.shields.io/badge/CCF--A-77-brightgreen)
+![Years](https://img.shields.io/badge/years-2021--2026-orange)
 ![Updated](https://img.shields.io/badge/updated-2026--09--28-lightgrey)
 
 Venue tiers follow the *CCF Recommended List of International Conferences and Journals*, **7th edition (March 2026)**.
@@ -20,26 +20,26 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 
 ## 📊 At a Glance
 
-| Direction | 2025 | 2024 | 2023 | 2022 | 2021 | **Total** |
-|---|---|---|---|---|---|---|
-| ISLR | 1 | · | 6 | · | 3 | **10** |
-| CSLR | · | 1 | 8 | 1 | 3 | **13** |
-| SLT | 3 | 4 | 7 | 4 | 6 | **24** |
-| SLP | 4 | 3 | · | 1 | 3 | **11** |
-| Retrieval | · | 1 | · | 1 | · | **2** |
-| Others | · | 1 | 2 | · | 3 | **6** |
-| Other Venues | · | 6 | 1 | 5 | · | **12** |
-| **Total** | **8** | **16** | **24** | **12** | **18** | **78** |
+| Direction | 2026 | 2025 | 2024 | 2023 | 2022 | 2021 | **Total** |
+|---|---|---|---|---|---|---|---|
+| ISLR | · | 1 | · | 6 | · | 3 | **10** |
+| CSLR | · | · | 1 | 8 | 1 | 3 | **13** |
+| SLT | 4 | 3 | 4 | 7 | 4 | 6 | **28** |
+| SLP | 5 | 4 | 3 | · | 1 | 3 | **16** |
+| Retrieval | · | · | 1 | · | 1 | · | **2** |
+| Others | 2 | · | 1 | 2 | · | 3 | **8** |
+| Other Venues | 4 | · | 6 | 1 | 5 | · | **16** |
+| **Total** | **15** | **8** | **16** | **24** | **12** | **18** | **93** |
 
 ## 📋 Contents
 
 - 🤟 [Isolated Sign Language Recognition (ISLR)](#-isolated-sign-language-recognition-islr) &nbsp;`10`
 - 🎬 [Continuous Sign Language Recognition (CSLR)](#-continuous-sign-language-recognition-cslr) &nbsp;`13`
-- 🔤 [Sign Language Translation (SLT)](#-sign-language-translation-slt) &nbsp;`24`
-- 🧍 [Sign Language Production (SLP)](#-sign-language-production-slp) &nbsp;`11`
+- 🔤 [Sign Language Translation (SLT)](#-sign-language-translation-slt) &nbsp;`28`
+- 🧍 [Sign Language Production (SLP)](#-sign-language-production-slp) &nbsp;`16`
 - 🔍 [Sign Language Retrieval](#-sign-language-retrieval) &nbsp;`2`
-- 📚 [Others](#-others) &nbsp;`6`
-- ⭐ [Other Top Venues](#-other-top-venues) &nbsp;`12`
+- 📚 [Others](#-others) &nbsp;`8`
+- ⭐ [Other Top Venues](#-other-top-venues) &nbsp;`16`
 - 📌 [Inclusion Criteria](#-inclusion-criteria)
 - 📰 [News](#-news)
 - 🤝 [Contributing](#-contributing)
@@ -136,6 +136,18 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 ## 🔤 Sign Language Translation (SLT)
 
 <details open>
+<summary><b>2026</b> &nbsp;·&nbsp; 4 papers</summary>
+
+| Title | Authors | Venue | Paper | Code | Datasets | Key Contribution |
+|:--|:--|:--|:-:|:-:|:--|:--|
+| Selective Contrastive Learning For Gloss Free Sign Language Translation | Lai et al. | `ACL` | [link](https://aclanthology.org/2026.acl-long.2116/) | — | PHOENIX-2014T, CSL-Daily | 按相似度轨迹筛选难负样本，以课程式对比学习改善视频-文本对齐。 |
+| Think in Latent Thoughts: A New Paradigm for Gloss-Free Sign Language Translation | Jiang et al. | `ACL` | [link](https://aclanthology.org/2026.acl-long.454/) | [code](https://github.com/fletcherjiang/SignThought) | PHOENIX-2014T, 新建数据集 | 在视频与文本间引入潜在思维槽做推理式翻译，并发布新数据集。 |
+| BoostSLT: Boosting Sign Language Translation via a Plug-and-Play Diffusion-Based Semantic Enhancer | Han et al. | `CVPR` | [link](https://openaccess.thecvf.com/content/CVPR2026/html/Han_BoostSLT_Boosting_Sign_Language_Translation_via_a_Plug-and-Play_Diffusion-Based_Semantic_CVPR_2026_paper.html) | [code](https://github.com/K1sna/BoostSLT) | PHOENIX-2014T, CSL-Daily, Auslan-Daily | 即插即用的扩散语义增强模块，配合无监督时序分割改善长句翻译。 |
+| Learning Effective Sign Features without Text for Gloss-free Sign Language Translation | Gan et al. | `CVPR` | [link](https://openaccess.thecvf.com/content/CVPR2026/html/Gan_Learning_Effective_Sign_Features_without_Text_for_Gloss-free_Sign_Language_CVPR_2026_paper.html) | — | PHOENIX-2014T, CSL-Daily, How2Sign, OpenASL | 提出 SignDINO，不用 gloss 和文本、纯自蒸馏预训练手语 tokenizer。 |
+
+</details>
+
+<details open>
 <summary><b>2025</b> &nbsp;·&nbsp; 3 papers</summary>
 
 | Title | Authors | Venue | Paper | Code | Datasets | Key Contribution |
@@ -202,6 +214,19 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 <p align="right"><a href="#-contents">back to top ↑</a></p>
 
 ## 🧍 Sign Language Production (SLP)
+
+<details open>
+<summary><b>2026</b> &nbsp;·&nbsp; 5 papers</summary>
+
+| Title | Authors | Venue | Paper | Code | Datasets | Key Contribution |
+|:--|:--|:--|:-:|:-:|:--|:--|
+| Hybrid Autoregressive-Diffusion Model for Real-Time Sign Language Production | Ye et al. | `ACL` | [link](https://aclanthology.org/2026.acl-long.31/) | — | — | 自回归与扩散混合，面向实时手语生成。 |
+| Stable Signer: Hierarchical Sign Language Generative Model | Fang et al. | `ACL` | [link](https://aclanthology.org/2026.acl-long.659/) | — | — | 层级式手语生成模型。 |
+| Focal–General Diffusion Model with Semantic Consistent Guidance for Sign Language Production | Yu et al. | `CVPR` | [link](https://openaccess.thecvf.com/content/CVPR2026/html/Yu_Focal-General_Diffusion_Model_with_Semantic_Consistent_Guidance_for_Sign_Language_CVPR_2026_paper.html) | [code](https://github.com/yuyiheng-eu/FGDM-main) | PHOENIX-2014T, USTC-CSL | 两阶段扩散分别建模关节依赖与全局序列，用时间感知 CTC 注入语义约束。 |
+| SignPR: A Progressive Vector-Quantized Diffusion Framework for Sign Language Production | Liu et al. | `CVPR` | [link](https://openaccess.thecvf.com/content/CVPR2026/html/Liu_SignPR_A_Progressive_Vector-Quantized_Diffusion_Framework_for_Sign_Language_Production_CVPR_2026_paper.html) | — | PHOENIX-2014T, CSL-Daily, USTC-CSL | 语义级与区域级离散 token 双重渐进，扩散生成兼顾结构一致与动作细节。 |
+| Text-Driven 3D Hand Motion Generation from Sign Language Data | Bensabath et al. | `CVPR` | [link](https://openaccess.thecvf.com/content/CVPR2026/html/Bensabath_Text-Driven_3D_Hand_Motion_Generation_from_Sign_Language_Data_CVPR_2026_paper.html) | — | BOBSL3DT | 从手语视频自动构建 130 万文本-3D 手部动作对，训练 HandMDM 生成手部动作。 |
+
+</details>
 
 <details open>
 <summary><b>2025</b> &nbsp;·&nbsp; 4 papers</summary>
@@ -275,6 +300,16 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 Datasets & benchmarks, pre-training & representation learning, fingerspelling, sign language understanding & dialogue.
 
 <details open>
+<summary><b>2026</b> &nbsp;·&nbsp; 2 papers</summary>
+
+| Title | Authors | Venue | Paper | Code | Datasets | Key Contribution |
+|:--|:--|:--|:-:|:-:|:--|:--|
+| OpenFS: Multi-Hand-Capable Fingerspelling Recognition with Implicit Signing-Hand Detection and Frame-Wise Letter-Conditioned Synthesis | Cha et al. | `CVPR` | [link](https://arxiv.org/abs/2602.22949) | [code](https://github.com/JunukCha/OpenFS) | ChicagoFSWild, ChicagoFSWild+, FSNeo | 指拼识别：隐式检测打手语的手，并用扩散合成词表外指拼数据。 |
+| BANZ-FS: BANZSL Fingerspelling Dataset | Shen et al. | `ICLR` | [link](https://mlanthology.org/iclr/2026/shen2026iclr-banzfs/) | — | BANZ-FS | 首个英/澳/新西兰手语双手指拼大规模数据集（3.5 万+ 实例）及基准。 |
+
+</details>
+
+<details open>
 <summary><b>2024</b> &nbsp;·&nbsp; 1 paper</summary>
 
 | Title | Authors | Venue | Paper | Code | Datasets | Key Contribution |
@@ -309,6 +344,18 @@ Datasets & benchmarks, pre-training & representation learning, fingerspelling, s
 ## ⭐ Other Top Venues
 
 Sign language papers from well-known venues that are **not** CCF-A in the 7th edition (e.g. ECCV, EMNLP, NAACL, IJCAI, COLING, BMVC). Same inclusion rules otherwise (2021+, formally accepted).
+
+<details open>
+<summary><b>2026</b> &nbsp;·&nbsp; 4 papers</summary>
+
+| Title | Authors | Venue | Direction | Paper | Code | Datasets | Key Contribution |
+|:--|:--|:--|:--|:-:|:-:|:--|:--|
+| SIGNER: Temporally Grounded Sign Language Generation via Time-Resolved Conditioning | Lee et al. | `ECCV (CCF-B)` | SLP | [link](https://arxiv.org/abs/2506.07460) | — | — | 按时间分辨的条件控制，生成时间上对齐的手语。 |
+| SignBind-LLM: Multi-Stage Modality Fusion for Sign Language Translation | — | `ECCV (CCF-B)` | SLT | [link](https://en.papernotes.org/ECCV2026/human_understanding/signbind-llm_multi-stage_modality_fusion_for_sign_language_translation/) | — | — | 多阶段模态融合接入 LLM 做手语翻译。 |
+| SignRefine: Adapting Foundational Video Models for Sign Language Generation | Pelykh et al. | `ECCV (CCF-B)` | SLP | [link](https://eccv.ecva.net/virtual/2026/poster/4976) | — | — | 把视频基础模型适配到手语视频生成。 |
+| SignSparK: Efficient Multilingual Sign Language Production via Sparse Keyframe Learning | Low et al. | `ECCV (CCF-B)` | SLP | [link](https://arxiv.org/abs/2603.10446) | [code](https://github.com/JianHe0628/SignSparK) | — | 稀疏关键帧学习的高效多语种手语生成。 |
+
+</details>
 
 <details open>
 <summary><b>2024</b> &nbsp;·&nbsp; 6 papers</summary>
@@ -365,8 +412,9 @@ Sign language papers from well-known venues that are **not** CCF-A in the 7th ed
 
 ## 📰 News
 
+- **2026-09-28** — Added 11 CCF-A papers from 2026 (CVPR, ACL, ICLR) and 4 from ECCV 2026, each verified against official proceedings.
 - **2026-09-28** — Reorganized by year within each direction; added stats table and new layout.
-- **2026-09-28** — First batch of 78 papers added across all sections.
+- **2026-09-28** — First batch of 93 papers added across all sections.
 - **2026-09-28** — Repository created. Added inclusion criteria and the Other Top Venues section.
 
 ## 🤝 Contributing
