@@ -49,7 +49,7 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 ## 🖐️ Isolated Sign Language Recognition (ISLR)
 
 <details open>
-<summary><b>2025</b> &nbsp;·&nbsp; 1 paper' + ('s' if len(grp)!=1 else '') + '</summary>
+<summary><b>2025</b> &nbsp;·&nbsp; 1 paper</summary>
 
 | Title | Authors | Venue | Paper | Code | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:-:|:--|:--|
@@ -58,7 +58,7 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 </details>
 
 <details open>
-<summary><b>2023</b> &nbsp;·&nbsp; 6 paper' + ('s' if len(grp)!=1 else '') + '</summary>
+<summary><b>2023</b> &nbsp;·&nbsp; 6 papers</summary>
 
 | Title | Authors | Venue | Paper | Code | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:-:|:--|:--|
@@ -72,7 +72,7 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 </details>
 
 <details open>
-<summary><b>2021</b> &nbsp;·&nbsp; 3 paper' + ('s' if len(grp)!=1 else '') + '</summary>
+<summary><b>2021</b> &nbsp;·&nbsp; 3 papers</summary>
 
 | Title | Authors | Venue | Paper | Code | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:-:|:--|:--|
@@ -87,7 +87,7 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 ## 🎬 Continuous Sign Language Recognition (CSLR)
 
 <details open>
-<summary><b>2024</b> &nbsp;·&nbsp; 1 paper' + ('s' if len(grp)!=1 else '') + '</summary>
+<summary><b>2024</b> &nbsp;·&nbsp; 1 paper</summary>
 
 | Title | Authors | Venue | Paper | Code | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:-:|:--|:--|
@@ -96,7 +96,7 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 </details>
 
 <details open>
-<summary><b>2023</b> &nbsp;·&nbsp; 8 paper' + ('s' if len(grp)!=1 else '') + '</summary>
+<summary><b>2023</b> &nbsp;·&nbsp; 8 papers</summary>
 
 | Title | Authors | Venue | Paper | Code | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:-:|:--|:--|
@@ -112,7 +112,7 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 </details>
 
 <details open>
-<summary><b>2022</b> &nbsp;·&nbsp; 1 paper' + ('s' if len(grp)!=1 else '') + '</summary>
+<summary><b>2022</b> &nbsp;·&nbsp; 1 paper</summary>
 
 | Title | Authors | Venue | Paper | Code | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:-:|:--|:--|
@@ -121,7 +121,7 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 </details>
 
 <details open>
-<summary><b>2021</b> &nbsp;·&nbsp; 3 paper' + ('s' if len(grp)!=1 else '') + '</summary>
+<summary><b>2021</b> &nbsp;·&nbsp; 3 papers</summary>
 
 | Title | Authors | Venue | Paper | Code | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:-:|:--|:--|
@@ -136,7 +136,7 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 ## 🔤 Sign Language Translation (SLT)
 
 <details open>
-<summary><b>2025</b> &nbsp;·&nbsp; 3 paper' + ('s' if len(grp)!=1 else '') + '</summary>
+<summary><b>2025</b> &nbsp;·&nbsp; 3 papers</summary>
 
 | Title | Authors | Venue | Paper | Code | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:-:|:--|:--|
@@ -147,7 +147,7 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 </details>
 
 <details open>
-<summary><b>2024</b> &nbsp;·&nbsp; 4 paper' + ('s' if len(grp)!=1 else '') + '</summary>
+<summary><b>2024</b> &nbsp;·&nbsp; 4 papers</summary>
 
 | Title | Authors | Venue | Paper | Code | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:-:|:--|:--|
@@ -159,7 +159,7 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 </details>
 
 <details open>
-<summary><b>2023</b> &nbsp;·&nbsp; 7 paper' + ('s' if len(grp)!=1 else '') + '</summary>
+<summary><b>2023</b> &nbsp;·&nbsp; 7 papers</summary>
 
 | Title | Authors | Venue | Paper | Code | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:-:|:--|:--|
@@ -174,7 +174,7 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 </details>
 
 <details open>
-<summary><b>2022</b> &nbsp;·&nbsp; 4 paper' + ('s' if len(grp)!=1 else '') + '</summary>
+<summary><b>2022</b> &nbsp;·&nbsp; 4 papers</summary>
 
 | Title | Authors | Venue | Paper | Code | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:-:|:--|:--|
@@ -186,7 +186,7 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 </details>
 
 <details open>
-<summary><b>2021</b> &nbsp;·&nbsp; 6 paper' + ('s' if len(grp)!=1 else '') + '</summary>
+<summary><b>2021</b> &nbsp;·&nbsp; 6 papers</summary>
 
 | Title | Authors | Venue | Paper | Code | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:-:|:--|:--|
@@ -204,7 +204,7 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 ## 🧍 Sign Language Production (SLP)
 
 <details open>
-<summary><b>2025</b> &nbsp;·&nbsp; 4 paper' + ('s' if len(grp)!=1 else '') + '</summary>
+<summary><b>2025</b> &nbsp;·&nbsp; 4 papers</summary>
 
 | Title | Authors | Venue | Paper | Code | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:-:|:--|:--|
@@ -216,7 +216,7 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 </details>
 
 <details open>
-<summary><b>2024</b> &nbsp;·&nbsp; 3 paper' + ('s' if len(grp)!=1 else '') + '</summary>
+<summary><b>2024</b> &nbsp;·&nbsp; 3 papers</summary>
 
 | Title | Authors | Venue | Paper | Code | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:-:|:--|:--|
@@ -227,7 +227,7 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 </details>
 
 <details open>
-<summary><b>2022</b> &nbsp;·&nbsp; 1 paper' + ('s' if len(grp)!=1 else '') + '</summary>
+<summary><b>2022</b> &nbsp;·&nbsp; 1 paper</summary>
 
 | Title | Authors | Venue | Paper | Code | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:-:|:--|:--|
@@ -236,7 +236,7 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 </details>
 
 <details open>
-<summary><b>2021</b> &nbsp;·&nbsp; 3 paper' + ('s' if len(grp)!=1 else '') + '</summary>
+<summary><b>2021</b> &nbsp;·&nbsp; 3 papers</summary>
 
 | Title | Authors | Venue | Paper | Code | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:-:|:--|:--|
@@ -251,7 +251,7 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 ## 🔍 Sign Language Retrieval
 
 <details open>
-<summary><b>2024</b> &nbsp;·&nbsp; 1 paper' + ('s' if len(grp)!=1 else '') + '</summary>
+<summary><b>2024</b> &nbsp;·&nbsp; 1 paper</summary>
 
 | Title | Authors | Venue | Paper | Code | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:-:|:--|:--|
@@ -260,7 +260,7 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 </details>
 
 <details open>
-<summary><b>2022</b> &nbsp;·&nbsp; 1 paper' + ('s' if len(grp)!=1 else '') + '</summary>
+<summary><b>2022</b> &nbsp;·&nbsp; 1 paper</summary>
 
 | Title | Authors | Venue | Paper | Code | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:-:|:--|:--|
@@ -275,7 +275,7 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 Datasets & benchmarks, pre-training & representation learning, fingerspelling, sign language understanding & dialogue.
 
 <details open>
-<summary><b>2024</b> &nbsp;·&nbsp; 1 paper' + ('s' if len(grp)!=1 else '') + '</summary>
+<summary><b>2024</b> &nbsp;·&nbsp; 1 paper</summary>
 
 | Title | Authors | Venue | Paper | Code | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:-:|:--|:--|
@@ -284,7 +284,7 @@ Datasets & benchmarks, pre-training & representation learning, fingerspelling, s
 </details>
 
 <details open>
-<summary><b>2023</b> &nbsp;·&nbsp; 2 paper' + ('s' if len(grp)!=1 else '') + '</summary>
+<summary><b>2023</b> &nbsp;·&nbsp; 2 papers</summary>
 
 | Title | Authors | Venue | Paper | Code | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:-:|:--|:--|
@@ -294,7 +294,7 @@ Datasets & benchmarks, pre-training & representation learning, fingerspelling, s
 </details>
 
 <details open>
-<summary><b>2021</b> &nbsp;·&nbsp; 3 paper' + ('s' if len(grp)!=1 else '') + '</summary>
+<summary><b>2021</b> &nbsp;·&nbsp; 3 papers</summary>
 
 | Title | Authors | Venue | Paper | Code | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:-:|:--|:--|
@@ -311,7 +311,7 @@ Datasets & benchmarks, pre-training & representation learning, fingerspelling, s
 Sign language papers from well-known venues that are **not** CCF-A in the 7th edition (e.g. ECCV, EMNLP, NAACL, IJCAI, COLING, BMVC). Same inclusion rules otherwise (2021+, formally accepted).
 
 <details open>
-<summary><b>2024</b> &nbsp;·&nbsp; 6 paper' + ('s' if len(grp)!=1 else '') + '</summary>
+<summary><b>2024</b> &nbsp;·&nbsp; 6 papers</summary>
 
 | Title | Authors | Venue | Direction | Paper | Code | Datasets | Key Contribution |
 |:--|:--|:--|:--|:-:|:-:|:--|:--|
@@ -325,7 +325,7 @@ Sign language papers from well-known venues that are **not** CCF-A in the 7th ed
 </details>
 
 <details open>
-<summary><b>2023</b> &nbsp;·&nbsp; 1 paper' + ('s' if len(grp)!=1 else '') + '</summary>
+<summary><b>2023</b> &nbsp;·&nbsp; 1 paper</summary>
 
 | Title | Authors | Venue | Direction | Paper | Code | Datasets | Key Contribution |
 |:--|:--|:--|:--|:-:|:-:|:--|:--|
@@ -334,7 +334,7 @@ Sign language papers from well-known venues that are **not** CCF-A in the 7th ed
 </details>
 
 <details open>
-<summary><b>2022</b> &nbsp;·&nbsp; 5 paper' + ('s' if len(grp)!=1 else '') + '</summary>
+<summary><b>2022</b> &nbsp;·&nbsp; 5 papers</summary>
 
 | Title | Authors | Venue | Direction | Paper | Code | Datasets | Key Contribution |
 |:--|:--|:--|:--|:-:|:-:|:--|:--|
