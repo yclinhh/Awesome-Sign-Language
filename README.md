@@ -33,7 +33,7 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 
 ## 📋 Contents
 
-- 🖐️ [Isolated Sign Language Recognition (ISLR)](#-isolated-sign-language-recognition-islr) &nbsp;`10`
+- 🤟 [Isolated Sign Language Recognition (ISLR)](#-isolated-sign-language-recognition-islr) &nbsp;`10`
 - 🎬 [Continuous Sign Language Recognition (CSLR)](#-continuous-sign-language-recognition-cslr) &nbsp;`13`
 - 🔤 [Sign Language Translation (SLT)](#-sign-language-translation-slt) &nbsp;`24`
 - 🧍 [Sign Language Production (SLP)](#-sign-language-production-slp) &nbsp;`11`
@@ -46,7 +46,7 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 
 ---
 
-## 🖐️ Isolated Sign Language Recognition (ISLR)
+## 🤟 Isolated Sign Language Recognition (ISLR)
 
 <details open>
 <summary><b>2025</b> &nbsp;·&nbsp; 1 paper</summary>
