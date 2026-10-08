@@ -5,10 +5,10 @@
 **A curated list of sign language papers published at CCF-A venues since 2021**
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Papers](https://img.shields.io/badge/papers-171-blue)
-![CCF-A](https://img.shields.io/badge/CCF--A-154-brightgreen)
+![Papers](https://img.shields.io/badge/papers-183-blue)
+![CCF-A](https://img.shields.io/badge/CCF--A-166-brightgreen)
 ![Years](https://img.shields.io/badge/years-2021--2026-orange)
-![Updated](https://img.shields.io/badge/updated-2026--09--28-lightgrey)
+![Updated](https://img.shields.io/badge/updated-2026--10--08-lightgrey)
 
 Venue tiers follow the *CCF Recommended List of International Conferences and Journals*, **7th edition (March 2026)**.
 
@@ -24,21 +24,21 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 |---|---|---|---|---|---|---|---|
 | ISLR | · | 2 | 4 | 5 | 2 | 3 | **16** |
 | CSLR | 3 | 4 | 5 | 9 | 2 | 3 | **26** |
-| SLT | 10 | 10 | 8 | 9 | 6 | 8 | **51** |
-| SLP | 7 | 5 | 2 | 2 | 3 | 3 | **22** |
+| SLT | 13 | 10 | 8 | 9 | 6 | 8 | **54** |
+| SLP | 8 | 5 | 2 | 2 | 3 | 3 | **23** |
 | Retrieval | 1 | · | 1 | 1 | 1 | · | **4** |
-| Others | 7 | 8 | 3 | 3 | 7 | 7 | **35** |
+| Others | 15 | 8 | 3 | 3 | 7 | 7 | **43** |
 | Other Venues | 4 | · | 7 | 1 | 5 | · | **17** |
-| **Total** | **32** | **29** | **30** | **30** | **26** | **24** | **171** |
+| **Total** | **44** | **29** | **30** | **30** | **26** | **24** | **183** |
 
 ## 📋 Contents
 
 - 🤟 [Isolated Sign Language Recognition (ISLR)](#-isolated-sign-language-recognition-islr) &nbsp;`16`
 - 🎬 [Continuous Sign Language Recognition (CSLR)](#-continuous-sign-language-recognition-cslr) &nbsp;`26`
-- 🔤 [Sign Language Translation (SLT)](#-sign-language-translation-slt) &nbsp;`51`
-- 🧍 [Sign Language Production (SLP)](#-sign-language-production-slp) &nbsp;`22`
+- 🔤 [Sign Language Translation (SLT)](#-sign-language-translation-slt) &nbsp;`54`
+- 🧍 [Sign Language Production (SLP)](#-sign-language-production-slp) &nbsp;`23`
 - 🔍 [Sign Language Retrieval](#-sign-language-retrieval) &nbsp;`4`
-- 📚 [Others](#-others) &nbsp;`35`
+- 📚 [Others](#-others) &nbsp;`43`
 - ⭐ [Other Top Venues](#-other-top-venues) &nbsp;`17`
 - 📌 [Inclusion Criteria](#-inclusion-criteria)
 - 📰 [News](#-news)
@@ -187,7 +187,7 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 ## 🔤 Sign Language Translation (SLT)
 
 <details open>
-<summary><b>2026</b> &nbsp;·&nbsp; 10 papers</summary>
+<summary><b>2026</b> &nbsp;·&nbsp; 13 papers</summary>
 
 | Title | Authors | Venue | Paper | Code | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:-:|:--|:--|
@@ -199,7 +199,10 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 | Grounding or Guessing? Visual Signals for Detecting Hallucinations in Sign Language Translation | Hamidullah et al. | `ICLR` | [link](https://openreview.net/forum?id=bLFW2T3UHq) | — | — | 利用视觉证据检测无 gloss 翻译中的幻觉。 |
 | Diverse Sign Language Translation | Shen et al. | `IJCV` | [link](https://doi.org/10.1007/s11263-026-02900-5) | — | — | 为一段手语生成多样化的正确译文。 |
 | Variational Sign Language Translation | Zhao et al. | `IJCV` | [link](https://doi.org/10.1007/s11263-026-02978-x) | — | — | 变分框架下的手语翻译。 |
+| From Clips to Streams: A Unified Framework for Streaming Sign Language Translation | Dang et al. | `NeurIPS` | [link](https://openreview.net/forum?id=8cWsEeaaN5) | — | — | 从片段级扩展到连续视频流的统一流式手语翻译框架。 |
+| Lost in Translation, Found in Embeddings: Sign Language Translation and Alignment | Jang et al. | `NeurIPS` | [link](https://openreview.net/forum?id=aELeAvEd3r) | — | — | 把手语翻译与字幕对齐放进同一嵌入空间联合处理。 |
 | SEN: Semantic-Enhanced Network for Gloss-Free Sign Language Translation | Liu et al. | `TMM` | [link](https://doi.org/10.1109/tmm.2026.3724355) | — | — | 语义增强的无 gloss 翻译网络。 |
+| SF-LLM: A Skeleton-Fused Multimodal Large Language Model for Sign Language Translation | Yuan et al. | `TMM` | [link](https://doi.org/10.1109/tmm.2026.3739476) | — | — | 把骨架信息融合进多模态大模型做手语翻译。 |
 | TRANSLATE: Temporal Disentanglement and Regularization for Test-Time Adaptation in Sign Language Translation | Wang et al. | `TMM` | [link](https://doi.org/10.1109/tmm.2026.3730967) | — | — | 时序解耦与正则化的测试时自适应翻译。 |
 
 </details>
@@ -290,7 +293,7 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 ## 🧍 Sign Language Production (SLP)
 
 <details open>
-<summary><b>2026</b> &nbsp;·&nbsp; 7 papers</summary>
+<summary><b>2026</b> &nbsp;·&nbsp; 8 papers</summary>
 
 | Title | Authors | Venue | Paper | Code | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:-:|:--|:--|
@@ -299,6 +302,7 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 | Focal–General Diffusion Model with Semantic Consistent Guidance for Sign Language Production | Yu et al. | `CVPR` | [link](https://openaccess.thecvf.com/content/CVPR2026/html/Yu_Focal-General_Diffusion_Model_with_Semantic_Consistent_Guidance_for_Sign_Language_CVPR_2026_paper.html) | [code](https://github.com/yuyiheng-eu/FGDM-main) | PHOENIX-2014T, USTC-CSL | 两阶段扩散分别建模关节依赖与全局序列，用时间感知 CTC 注入语义约束。 |
 | SignPR: A Progressive Vector-Quantized Diffusion Framework for Sign Language Production | Liu et al. | `CVPR` | [link](https://openaccess.thecvf.com/content/CVPR2026/html/Liu_SignPR_A_Progressive_Vector-Quantized_Diffusion_Framework_for_Sign_Language_Production_CVPR_2026_paper.html) | — | PHOENIX-2014T, CSL-Daily, USTC-CSL | 语义级与区域级离散 token 双重渐进，扩散生成兼顾结构一致与动作细节。 |
 | Text-Driven 3D Hand Motion Generation from Sign Language Data | Bensabath et al. | `CVPR` | [link](https://openaccess.thecvf.com/content/CVPR2026/html/Bensabath_Text-Driven_3D_Hand_Motion_Generation_from_Sign_Language_Data_CVPR_2026_paper.html) | — | BOBSL3DT | 从手语视频自动构建 130 万文本-3D 手部动作对，训练 HandMDM 生成手部动作。 |
+| LLM Is a Good Conditioner: End-to-End Sign Language Video Generation with VQ-Diffusion | Liu & Gan | `NeurIPS` | [link](https://openreview.net/forum?id=twBWaZ8FT0) | — | — | 用大语言模型提供条件，配合 VQ-Diffusion 端到端生成手语视频。 |
 | Hierarchical Graph Frequency-Selective Diffusion Model for Personalized Sign Language Production | Rastgoo et al. | `TMM` | [link](https://doi.org/10.1109/tmm.2026.3724351) | — | — | 层级图频率选择扩散，做个性化手语生成。 |
 | SignMoD: Sign Language Video Generation via Mixture of Diffusion | Qi et al. | `TPAMI` | [link](https://doi.org/10.1109/tpami.2026.3698334) | — | — | 混合扩散模型生成手语视频。 |
 
@@ -406,15 +410,23 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 Datasets & benchmarks, pre-training & representation learning, fingerspelling, sign language understanding & dialogue.
 
 <details open>
-<summary><b>2026</b> &nbsp;·&nbsp; 7 papers</summary>
+<summary><b>2026</b> &nbsp;·&nbsp; 15 papers</summary>
 
 | Title | Authors | Venue | Paper | Code | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:-:|:--|:--|
 | CNSL-bench: Benchmarking the Sign Language Understanding Capabilities of MLLMs on Chinese National Sign Language | Zhao et al. | `ACL` | [link](https://aclanthology.org/2026.acl-long.1896/) | — | CNSL-bench | 评测多模态大模型对中国国家通用手语的理解能力。 |
 | Segment, Embed, and Align: A Universal Recipe for Aligning Subtitles to Signing | Jiang et al. | `ACL` | [link](https://aclanthology.org/2026.acl-long.1401/) | — | — | 分割、嵌入、对齐三步，跨语种跨领域对齐字幕与手语。 |
 | The Visual Iconicity Challenge: Evaluating Vision-Language Models on Sign Language Form–Meaning Mapping | Keleş et al. | `ACL` | [link](https://aclanthology.org/2026.acl-long.1907/) | — | — | 评测视觉语言模型对手语形义映射（象似性）的理解。 |
+| ASL Educators' Perspectives on AI for Enhancing Student Learning in American Sign Language Education | Hassan et al. | `CHI` | [link](https://doi.org/10.1145/3772318.3791928) | — | — | 调研 ASL 教师对用 AI 辅助手语教学的看法。 |
+| AuslanSpell: An Interactive Technology for Improving Auslan Fingerspelling Comprehension | Stefanov et al. | `CHI` | [link](https://doi.org/10.1145/3772318.3791563) | — | — | 帮助学习者提高澳大利亚手语指拼理解能力的交互系统。 |
+| Beyond Technical Metrics: Understanding the Gap Between AI Performance and Deaf User Experience in Chinese Natural Sign Language Generation | Liu et al. | `CHI` | [link](https://doi.org/10.1145/3772318.3791429) | — | — | 揭示中国自然手语生成中技术指标与聋人实际体验之间的落差。 |
+| Reimagining Sign Language Technologies: Analyzing Translation Work of Chinese Deaf Online Content Creators | Tang et al. | `CHI` | [link](https://doi.org/10.1145/3772318.3790624) | — | — | 分析中国聋人内容创作者的翻译实践，反思手语技术设计。 |
 | OpenFS: Multi-Hand-Capable Fingerspelling Recognition with Implicit Signing-Hand Detection and Frame-Wise Letter-Conditioned Synthesis | Cha et al. | `CVPR` | [link](https://arxiv.org/abs/2602.22949) | [code](https://github.com/JunukCha/OpenFS) | ChicagoFSWild, ChicagoFSWild+, FSNeo | 指拼识别：隐式检测打手语的手，并用扩散合成词表外指拼数据。 |
 | BANZ-FS: BANZSL Fingerspelling Dataset | Shen et al. | `ICLR` | [link](https://mlanthology.org/iclr/2026/shen2026iclr-banzfs/) | — | BANZ-FS | 首个英/澳/新西兰手语双手指拼大规模数据集（3.5 万+ 实例）及基准。 |
+| CNText2Sign and CNSign: Unified Chinese Sign Language Datasets for Bidirectional Accessibility | Li et al. | `KDD` | [link](https://doi.org/10.1145/3770854.3785676) | — | CNText2Sign, CNSign | 统一的中国手语数据集，同时支持文本到手语与手语到文本两个方向。 |
+| Isharah-Selfie: Continuous Sign Language Recognition Dataset for One-handed Signing | Hasanaath et al. | `NeurIPS (D&B)` | [link](https://openreview.net/forum?id=l3pvG8AHwe) | — | Isharah-Selfie | 面向单手（自拍场景）打手语的连续识别数据集。 |
+| LSC-Parlament: An Automatically Aligned Catalan Sign Language Dataset from Parliament Videos | Escolano et al. | `NeurIPS (D&B)` | [link](https://openreview.net/forum?id=pPt0iqECnh) | — | LSC-Parlament | 从议会视频自动对齐构建的加泰罗尼亚手语数据集。 |
+| MySign: A High-Fidelity Motion-Capture Dataset for 3D Sign Generation in Bahasa Isyarat Malaysia | Shen et al. | `NeurIPS (D&B)` | [link](https://openreview.net/forum?id=FMCB6LFtcc) | — | MySign | 马来西亚手语的高精度动作捕捉数据集，用于 3D 手语生成。 |
 | Deep Understanding of Sign Language for Sign to Subtitle Alignment | Jang et al. | `TMM` | [link](https://doi.org/10.1109/tmm.2026.3673520) | — | — | 利用手语理解做手语视频与字幕的对齐。 |
 | Isharah: A Large-Scale Multi-Scene Dataset for Continuous Sign Language Recognition | Alyami et al. | `TMM` | [link](https://doi.org/10.1109/tmm.2026.3664959) | — | Isharah | 多场景大规模连续手语识别数据集。 |
 
@@ -562,11 +574,12 @@ Sign language papers from well-known venues that are **not** CCF-A in the 7th ed
 
 ## 📰 News
 
+- **2026-10-08** — Added 6 NeurIPS 2026 papers (3 main track, 3 Datasets & Benchmarks), 1 TMM 2026, 1 KDD 2026 and 4 CHI 2026 papers.
 - **2026-09-29** — Venue-by-venue audit against official proceedings (CVF, ACL Anthology, NeurIPS/ICML proceedings, OpenReview) and OpenAlex: added 75 missed papers (AAAI, ACM MM, CHI, TPAMI, IJCV, TIP, TMM, CVPR, ICCV, ACL, ICLR); moved MS2SL to Other Top Venues (it is ACL Findings, not the main conference); corrected one TIP year.
 - **2026-09-28** — Added 3 NeurIPS 2025 papers (MixSignGraph, Geo-Sign, Pseudo Gloss) found via OpenReview.
 - **2026-09-28** — Added 11 CCF-A papers from 2026 (CVPR, ACL, ICLR) and 4 from ECCV 2026, each verified against official proceedings.
 - **2026-09-28** — Reorganized by year within each direction; added stats table and new layout.
-- **2026-09-28** — First batch of 171 papers added across all sections.
+- **2026-09-28** — First batch of 183 papers added across all sections.
 - **2026-09-28** — Repository created. Added inclusion criteria and the Other Top Venues section.
 
 ## 🤝 Contributing
