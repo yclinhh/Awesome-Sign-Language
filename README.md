@@ -5,7 +5,7 @@
 **A curated list of sign language papers published at CCF-A venues since 2021**
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Papers](https://img.shields.io/badge/papers-183-blue)
+![Papers](https://img.shields.io/badge/papers-192-blue)
 ![CCF-A](https://img.shields.io/badge/CCF--A-166-brightgreen)
 ![Years](https://img.shields.io/badge/years-2021--2026-orange)
 ![Updated](https://img.shields.io/badge/updated-2026--10--08-lightgrey)
@@ -28,8 +28,8 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 | SLP | 8 | 5 | 2 | 2 | 3 | 3 | **23** |
 | Retrieval | 1 | · | 1 | 1 | 1 | · | **4** |
 | Others | 15 | 8 | 3 | 3 | 7 | 7 | **43** |
-| Other Venues | 4 | · | 7 | 1 | 5 | · | **17** |
-| **Total** | **44** | **29** | **30** | **30** | **26** | **24** | **183** |
+| Other Venues | 5 | 8 | 7 | 1 | 5 | · | **26** |
+| **Total** | **45** | **37** | **30** | **30** | **26** | **24** | **192** |
 
 ## 📋 Contents
 
@@ -39,7 +39,7 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 - 🧍 [Sign Language Production (SLP)](#-sign-language-production-slp) &nbsp;`23`
 - 🔍 [Sign Language Retrieval](#-sign-language-retrieval) &nbsp;`4`
 - 📚 [Others](#-others) &nbsp;`43`
-- ⭐ [Other Top Venues](#-other-top-venues) &nbsp;`17`
+- ⭐ [Other Top Venues](#-other-top-venues) &nbsp;`26`
 - 📌 [Inclusion Criteria](#-inclusion-criteria)
 - 📰 [News](#-news)
 - 🤝 [Contributing](#-contributing)
@@ -507,7 +507,7 @@ Datasets & benchmarks, pre-training & representation learning, fingerspelling, s
 Sign language papers from well-known venues that are **not** CCF-A in the 7th edition (e.g. ECCV, EMNLP, NAACL, IJCAI, COLING, BMVC). Same inclusion rules otherwise (2021+, formally accepted).
 
 <details open>
-<summary><b>2026</b> &nbsp;·&nbsp; 4 papers</summary>
+<summary><b>2026</b> &nbsp;·&nbsp; 5 papers</summary>
 
 | Title | Authors | Venue | Direction | Paper | Code | Datasets | Key Contribution |
 |:--|:--|:--|:--|:-:|:-:|:--|:--|
@@ -515,6 +515,23 @@ Sign language papers from well-known venues that are **not** CCF-A in the 7th ed
 | SignBind-LLM: Multi-Stage Modality Fusion for Sign Language Translation | — | `ECCV (CCF-B)` | SLT | [link](https://en.papernotes.org/ECCV2026/human_understanding/signbind-llm_multi-stage_modality_fusion_for_sign_language_translation/) | — | — | 多阶段模态融合接入 LLM 做手语翻译。 |
 | SignRefine: Adapting Foundational Video Models for Sign Language Generation | Pelykh et al. | `ECCV (CCF-B)` | SLP | [link](https://eccv.ecva.net/virtual/2026/poster/4976) | — | — | 把视频基础模型适配到手语视频生成。 |
 | SignSparK: Efficient Multilingual Sign Language Production via Sparse Keyframe Learning | Low et al. | `ECCV (CCF-B)` | SLP | [link](https://arxiv.org/abs/2603.10446) | [code](https://github.com/JianHe0628/SignSparK) | — | 稀疏关键帧学习的高效多语种手语生成。 |
+| A Gloss-driven Indian Sign Language Production System Using Learned Pose Representations | Patra et al. | `IJCAI (CCF-B, AI and Social Good)` | SLP | [link](https://www.ijcai.org/proceedings/2026/823) | — | — | 以 gloss 驱动、基于学习到的姿态表征的印度手语生成系统。 |
+
+</details>
+
+<details open>
+<summary><b>2025</b> &nbsp;·&nbsp; 8 papers</summary>
+
+| Title | Authors | Venue | Direction | Paper | Code | Datasets | Key Contribution |
+|:--|:--|:--|:--|:-:|:-:|:--|:--|
+| Improving Handshape Representations for Sign Language Processing: A Graph Neural Network Approach | Carbo et al. | `EMNLP (CCF-B)` | 表征学习 | [link](https://aclanthology.org/2025.emnlp-main.1483/) | — | — | 用图神经网络改进手形表征。 |
+| Logos as a Well-Tempered Pre-train for Sign Language Recognition | Ovodov et al. | `EMNLP (CCF-B)` | ISLR / 预训练 | [link](https://aclanthology.org/2025.emnlp-main.1238/) | — | Logos | 构建大规模俄语手语数据集 Logos，作为孤立词识别的预训练数据。 |
+| PoseStitch-SLT: Linguistically Inspired Pose-Stitching for End-to-End Sign Language Translation | Joshi et al. | `EMNLP (CCF-B)` | SLT | [link](https://aclanthology.org/2025.emnlp-main.698/) | — | — | 受语言学启发拼接姿态片段合成训练数据，做端到端翻译。 |
+| An Efficient Gloss-Free Sign Language Translation Using Spatial Configurations and Motion Dynamics with LLMs | Hwang et al. | `NAACL (CCF-B)` | SLT | [link](https://aclanthology.org/2025.naacl-long.197/) | — | — | 用空间构型与运动动态特征接入 LLM，做高效的无 gloss 翻译。 |
+| Continual Learning in Multilingual Sign Language Translation | Yazdani et al. | `NAACL (CCF-B)` | SLT | [link](https://aclanthology.org/2025.naacl-long.546/) | — | — | 多语种手语翻译中的持续学习，缓解新增语种时的遗忘。 |
+| FLEURS-ASL: Including American Sign Language in Massively Multilingual Multitask Evaluation | Tanzer | `NAACL (CCF-B)` | 数据集 / 基准 | [link](https://aclanthology.org/2025.naacl-long.314/) | — | FLEURS-ASL | 把 ASL 纳入大规模多语种多任务评测基准 FLEURS。 |
+| Fingerspelling within Sign Language Translation | Tanzer | `NAACL (CCF-B)` | SLT | [link](https://aclanthology.org/2025.naacl-long.19/) | — | — | 研究手语翻译模型对句中指拼内容的处理能力。 |
+| How to Align Multiple Signed Language Corpora for Better Sign-to-Sign Translations? | İnan et al. | `NAACL (CCF-B)` | SLT | [link](https://aclanthology.org/2025.naacl-long.202/) | — | — | 对齐多个手语语料库，用于手语到手语的翻译。 |
 
 </details>
 
@@ -574,12 +591,13 @@ Sign language papers from well-known venues that are **not** CCF-A in the 7th ed
 
 ## 📰 News
 
+- **2026-10-08** — Other Top Venues: added 9 papers from NAACL 2025, EMNLP 2025 and IJCAI 2026.
 - **2026-10-08** — Added 6 NeurIPS 2026 papers (3 main track, 3 Datasets & Benchmarks), 1 TMM 2026, 1 KDD 2026 and 4 CHI 2026 papers.
 - **2026-09-29** — Venue-by-venue audit against official proceedings (CVF, ACL Anthology, NeurIPS/ICML proceedings, OpenReview) and OpenAlex: added 75 missed papers (AAAI, ACM MM, CHI, TPAMI, IJCV, TIP, TMM, CVPR, ICCV, ACL, ICLR); moved MS2SL to Other Top Venues (it is ACL Findings, not the main conference); corrected one TIP year.
 - **2026-09-28** — Added 3 NeurIPS 2025 papers (MixSignGraph, Geo-Sign, Pseudo Gloss) found via OpenReview.
 - **2026-09-28** — Added 11 CCF-A papers from 2026 (CVPR, ACL, ICLR) and 4 from ECCV 2026, each verified against official proceedings.
 - **2026-09-28** — Reorganized by year within each direction; added stats table and new layout.
-- **2026-09-28** — First batch of 183 papers added across all sections.
+- **2026-09-28** — First batch of 192 papers added across all sections.
 - **2026-09-28** — Repository created. Added inclusion criteria and the Other Top Venues section.
 
 ## 🤝 Contributing
