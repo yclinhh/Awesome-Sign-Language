@@ -5,7 +5,8 @@
 **A curated list of sign language papers published at CCF-A venues since 2021**
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Papers](https://img.shields.io/badge/papers-192-blue)
+![Papers](https://img.shields.io/badge/CCF--A_papers-166-blue)
+[![CCF-B](https://img.shields.io/badge/CCF--B_list-186-purple)](CCF-B.md)
 ![CCF-A](https://img.shields.io/badge/CCF--A-166-brightgreen)
 ![Years](https://img.shields.io/badge/years-2021--2026-orange)
 ![Updated](https://img.shields.io/badge/updated-2026--10--08-lightgrey)
@@ -28,8 +29,7 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 | SLP | 8 | 5 | 2 | 2 | 3 | 3 | **23** |
 | Retrieval | 1 | · | 1 | 1 | 1 | · | **4** |
 | Others | 15 | 8 | 3 | 3 | 7 | 7 | **43** |
-| Other Venues | 5 | 8 | 7 | 1 | 5 | · | **26** |
-| **Total** | **45** | **37** | **30** | **30** | **26** | **24** | **192** |
+| **Total** | **40** | **29** | **23** | **29** | **21** | **24** | **166** |
 
 ## 📋 Contents
 
@@ -39,7 +39,7 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 - 🧍 [Sign Language Production (SLP)](#-sign-language-production-slp) &nbsp;`23`
 - 🔍 [Sign Language Retrieval](#-sign-language-retrieval) &nbsp;`4`
 - 📚 [Others](#-others) &nbsp;`43`
-- ⭐ [Other Top Venues](#-other-top-venues) &nbsp;`26`
+- ⭐ [CCF-B Venues](#-ccf-b-venues) &nbsp;`186`
 - 📌 [Inclusion Criteria](#-inclusion-criteria)
 - 📰 [News](#-news)
 - 🤝 [Contributing](#-contributing)
@@ -502,77 +502,9 @@ Datasets & benchmarks, pre-training & representation learning, fingerspelling, s
 
 <p align="right"><a href="#-contents">back to top ↑</a></p>
 
-## ⭐ Other Top Venues
+## ⭐ CCF-B Venues
 
-Sign language papers from well-known venues that are **not** CCF-A in the 7th edition (e.g. ECCV, EMNLP, NAACL, IJCAI, COLING, BMVC). Same inclusion rules otherwise (2021+, formally accepted).
-
-<details open>
-<summary><b>2026</b> &nbsp;·&nbsp; 5 papers</summary>
-
-| Title | Authors | Venue | Direction | Paper | Code | Datasets | Key Contribution |
-|:--|:--|:--|:--|:-:|:-:|:--|:--|
-| SIGNER: Temporally Grounded Sign Language Generation via Time-Resolved Conditioning | Lee et al. | `ECCV (CCF-B)` | SLP | [link](https://arxiv.org/abs/2506.07460) | — | — | 按时间分辨的条件控制，生成时间上对齐的手语。 |
-| SignBind-LLM: Multi-Stage Modality Fusion for Sign Language Translation | — | `ECCV (CCF-B)` | SLT | [link](https://en.papernotes.org/ECCV2026/human_understanding/signbind-llm_multi-stage_modality_fusion_for_sign_language_translation/) | — | — | 多阶段模态融合接入 LLM 做手语翻译。 |
-| SignRefine: Adapting Foundational Video Models for Sign Language Generation | Pelykh et al. | `ECCV (CCF-B)` | SLP | [link](https://eccv.ecva.net/virtual/2026/poster/4976) | — | — | 把视频基础模型适配到手语视频生成。 |
-| SignSparK: Efficient Multilingual Sign Language Production via Sparse Keyframe Learning | Low et al. | `ECCV (CCF-B)` | SLP | [link](https://arxiv.org/abs/2603.10446) | [code](https://github.com/JianHe0628/SignSparK) | — | 稀疏关键帧学习的高效多语种手语生成。 |
-| A Gloss-driven Indian Sign Language Production System Using Learned Pose Representations | Patra et al. | `IJCAI (CCF-B, AI and Social Good)` | SLP | [link](https://www.ijcai.org/proceedings/2026/823) | — | — | 以 gloss 驱动、基于学习到的姿态表征的印度手语生成系统。 |
-
-</details>
-
-<details open>
-<summary><b>2025</b> &nbsp;·&nbsp; 8 papers</summary>
-
-| Title | Authors | Venue | Direction | Paper | Code | Datasets | Key Contribution |
-|:--|:--|:--|:--|:-:|:-:|:--|:--|
-| Improving Handshape Representations for Sign Language Processing: A Graph Neural Network Approach | Carbo et al. | `EMNLP (CCF-B)` | 表征学习 | [link](https://aclanthology.org/2025.emnlp-main.1483/) | — | — | 用图神经网络改进手形表征。 |
-| Logos as a Well-Tempered Pre-train for Sign Language Recognition | Ovodov et al. | `EMNLP (CCF-B)` | ISLR / 预训练 | [link](https://aclanthology.org/2025.emnlp-main.1238/) | — | Logos | 构建大规模俄语手语数据集 Logos，作为孤立词识别的预训练数据。 |
-| PoseStitch-SLT: Linguistically Inspired Pose-Stitching for End-to-End Sign Language Translation | Joshi et al. | `EMNLP (CCF-B)` | SLT | [link](https://aclanthology.org/2025.emnlp-main.698/) | — | — | 受语言学启发拼接姿态片段合成训练数据，做端到端翻译。 |
-| An Efficient Gloss-Free Sign Language Translation Using Spatial Configurations and Motion Dynamics with LLMs | Hwang et al. | `NAACL (CCF-B)` | SLT | [link](https://aclanthology.org/2025.naacl-long.197/) | — | — | 用空间构型与运动动态特征接入 LLM，做高效的无 gloss 翻译。 |
-| Continual Learning in Multilingual Sign Language Translation | Yazdani et al. | `NAACL (CCF-B)` | SLT | [link](https://aclanthology.org/2025.naacl-long.546/) | — | — | 多语种手语翻译中的持续学习，缓解新增语种时的遗忘。 |
-| FLEURS-ASL: Including American Sign Language in Massively Multilingual Multitask Evaluation | Tanzer | `NAACL (CCF-B)` | 数据集 / 基准 | [link](https://aclanthology.org/2025.naacl-long.314/) | — | FLEURS-ASL | 把 ASL 纳入大规模多语种多任务评测基准 FLEURS。 |
-| Fingerspelling within Sign Language Translation | Tanzer | `NAACL (CCF-B)` | SLT | [link](https://aclanthology.org/2025.naacl-long.19/) | — | — | 研究手语翻译模型对句中指拼内容的处理能力。 |
-| How to Align Multiple Signed Language Corpora for Better Sign-to-Sign Translations? | İnan et al. | `NAACL (CCF-B)` | SLT | [link](https://aclanthology.org/2025.naacl-long.202/) | — | — | 对齐多个手语语料库，用于手语到手语的翻译。 |
-
-</details>
-
-<details open>
-<summary><b>2024</b> &nbsp;·&nbsp; 7 papers</summary>
-
-| Title | Authors | Venue | Direction | Paper | Code | Datasets | Key Contribution |
-|:--|:--|:--|:--|:-:|:-:|:--|:--|
-| MS2SL: Multimodal Spoken Data-Driven Continuous Sign Language Production | Ma et al. | `ACL Findings (Findings)` | SLP | [link](https://aclanthology.org/2024.findings-acl.432/) | — | PHOENIX-2014T, How2Sign | 支持文本与语音多模态输入驱动的连续手语生成。 |
-| A Simple Baseline for Spoken Language to Sign Language Translation with 3D Avatars | Fang et al. | `ECCV (CCF-B)` | SLP | [link](https://arxiv.org/abs/2401.04730) | [code](https://github.com/FangyunWei/SLRT/tree/main/Spoken2Sign) | PHOENIX-2014T, CSL-Daily | 从口语文本直接驱动 3D avatar 生成手语，给出简洁强基线。 |
-| EvSign: Sign Language Recognition and Translation with Streaming Events | Zhang et al. | `ECCV (CCF-B)` | CSLR / SLT | [link](https://arxiv.org/abs/2407.12593) | — | EvSign | 用事件相机流做手语识别与翻译，兼顾隐私与低功耗。 |
-| Uncertainty-Aware Sign Language Video Retrieval with Probability Distribution Modeling | Zheng et al. | `ECCV (CCF-B)` | 检索 | [link](https://arxiv.org/abs/2405.19689) | — | How2Sign, PHOENIX-2014T | 用概率分布建模检索中的语义不确定性，缓解一对多匹配。 |
-| Visual Alignment Pre-training for Sign Language Translation | Jiao et al. | `ECCV (CCF-B)` | SLT | — | — | PHOENIX-2014T, CSL-Daily | 无 gloss 的视觉对齐预训练，把视觉片段与词语对齐。 |
-| SignCLIP: Connecting Text and Sign Language by Contrastive Learning | Jiang et al. | `EMNLP (CCF-B)` | 预训练 | [link](https://arxiv.org/abs/2407.01264) | — | Spreadthesign, How2Sign | CLIP 式对比学习对齐手语视频与文本，支持多语种零样本迁移。 |
-| Towards Online Continuous Sign Language Recognition and Translation | Guo et al. | `EMNLP (CCF-B)` | CSLR / SLT | [link](https://arxiv.org/abs/2401.05336) | [code](https://github.com/FangyunWei/SLRT) | PHOENIX-2014, PHOENIX-2014T, CSL-Daily | 把离线 CSLR 改造为在线流式框架，支持实时识别与翻译。 |
-
-</details>
-
-<details open>
-<summary><b>2023</b> &nbsp;·&nbsp; 1 paper</summary>
-
-| Title | Authors | Venue | Direction | Paper | Code | Datasets | Key Contribution |
-|:--|:--|:--|:--|:-:|:-:|:--|:--|
-| Cross-modality Data Augmentation for End-to-End Sign Language Translation | Ye et al. | `EMNLP Findings (CCF-B)` | SLT | [link](https://arxiv.org/abs/2305.11096) | — | PHOENIX-2014T, CSL-Daily | 跨模态数据增强桥接 gloss 与文本，改善端到端翻译。 |
-
-</details>
-
-<details open>
-<summary><b>2022</b> &nbsp;·&nbsp; 5 papers</summary>
-
-| Title | Authors | Venue | Direction | Paper | Code | Datasets | Key Contribution |
-|:--|:--|:--|:--|:-:|:-:|:--|:--|
-| Weakly-supervised Fingerspelling Recognition in British Sign Language Videos | Prajwal et al. | `BMVC` | 指拼识别 | [link](https://arxiv.org/abs/2211.08954) | — | BOBSL | 弱监督学习英国手语指拼识别，无需逐帧字母标注。 |
-| Automatic Dense Annotation of Large-Vocabulary Sign Language Videos | Momeni et al. | `ECCV (CCF-B)` | 数据集 | [link](https://arxiv.org/abs/2208.02802) | — | BOBSL | 自动为大词表手语视频生成稠密标注，大幅扩充可用监督。 |
-| Deep Radial Embedding for Visual Sequence Learning | Min et al. | `ECCV (CCF-B)` | CSLR | — | — | PHOENIX-2014, PHOENIX-2014T | 改造 CTC 的径向嵌入，缓解序列学习中的尖峰行为。 |
-| Temporal Lift Pooling for Continuous Sign Language Recognition | Hu et al. | `ECCV (CCF-B)` | CSLR | [link](https://arxiv.org/abs/2207.08734) | [code](https://github.com/hulianyuyy/Temporal-Lift-Pooling) | PHOENIX-2014, PHOENIX-2014T, CSL-Daily | 用提升小波思想设计时序池化，保留下采样中丢失的细节。 |
-| Open-Domain Sign Language Translation Learned from Online Video | Shi et al. | `EMNLP (CCF-B)` | SLT / 数据集 | [link](https://arxiv.org/abs/2205.12870) | [code](https://github.com/chevalierNoir/OpenASL) | OpenASL | 从在线视频构建开放域 ASL 翻译数据集 OpenASL。 |
-
-</details>
-
-<p align="right"><a href="#-contents">back to top ↑</a></p>
+Sign language papers at **CCF-B** conferences and journals (ECCV, EMNLP, NAACL, COLING, IJCAI, Interspeech, ICASSP, ICME, TCSVT, PR, CVIU, TOMM …) are maintained in a separate list: **[CCF-B.md](CCF-B.md)** — 186 papers, same layout as this page.
 
 ---
 
@@ -585,19 +517,20 @@ Sign language papers from well-known venues that are **not** CCF-A in the 7th ed
 | **Venue tier** | CCF-A per the 7th edition (March 2026). Tier is judged by the *current* edition, not the edition in force when the paper was published. |
 | **Conferences (CCF-A)** | CVPR, ICCV, ACM MM, AAAI, NeurIPS, ICML, ICLR, ACL, SIGKDD, WWW, SIGIR, CHI, CSCW, SIGGRAPH, IEEE VR |
 | **Journals (CCF-A)** | TPAMI, IJCV, TIP, TMM, AI, JMLR, TOG, TVCG |
-| **Other Top Venues** | Strong work at non-CCF-A venues (ECCV, EMNLP, NAACL, IJCAI, COLING, BMVC …) goes in its own section. |
+| **CCF-B venues** | Maintained separately in [CCF-B.md](CCF-B.md) (ECCV, EMNLP, NAACL, COLING, IJCAI, ICASSP, TCSVT, PR, CVIU …). |
 
 > ⚠️ Two commonly mis-tiered venues: **ICLR is CCF-A** in the 7th edition, while **IJCAI is CCF-B**.
 
 ## 📰 News
 
+- **2026-10-23** — New companion list **[CCF-B.md](CCF-B.md)** with 186 papers from CCF-B venues; the former Other Top Venues section moved there.
 - **2026-10-08** — Other Top Venues: added 9 papers from NAACL 2025, EMNLP 2025 and IJCAI 2026.
 - **2026-10-08** — Added 6 NeurIPS 2026 papers (3 main track, 3 Datasets & Benchmarks), 1 TMM 2026, 1 KDD 2026 and 4 CHI 2026 papers.
 - **2026-09-29** — Venue-by-venue audit against official proceedings (CVF, ACL Anthology, NeurIPS/ICML proceedings, OpenReview) and OpenAlex: added 75 missed papers (AAAI, ACM MM, CHI, TPAMI, IJCV, TIP, TMM, CVPR, ICCV, ACL, ICLR); moved MS2SL to Other Top Venues (it is ACL Findings, not the main conference); corrected one TIP year.
 - **2026-09-28** — Added 3 NeurIPS 2025 papers (MixSignGraph, Geo-Sign, Pseudo Gloss) found via OpenReview.
 - **2026-09-28** — Added 11 CCF-A papers from 2026 (CVPR, ACL, ICLR) and 4 from ECCV 2026, each verified against official proceedings.
 - **2026-09-28** — Reorganized by year within each direction; added stats table and new layout.
-- **2026-09-28** — First batch of 192 papers added across all sections.
+- **2026-09-28** — First batch of 78 papers added across all sections.
 - **2026-09-28** — Repository created. Added inclusion criteria and the Other Top Venues section.
 
 ## 🤝 Contributing
