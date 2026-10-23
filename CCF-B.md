@@ -4,7 +4,7 @@
 
 **Companion list to [Awesome Sign Language](README.md) — sign language papers at CCF-B conferences and journals since 2021**
 
-![Papers](https://img.shields.io/badge/papers-186-blue)
+![Papers](https://img.shields.io/badge/papers-198-blue)
 ![Years](https://img.shields.io/badge/years-2021--2026-orange)
 ![Updated](https://img.shields.io/badge/updated-2026--10--23-lightgrey)
 
@@ -20,24 +20,24 @@ Venue tiers follow the *CCF Recommended List*, **7th edition (March 2026)**. Onl
 |---|---|---|---|---|---|---|---|
 | ISLR | 4 | 4 | 10 | 2 | 7 | 4 | **31** |
 | CSLR | 9 | 6 | 8 | 3 | 4 | 1 | **31** |
-| SLT | 13 | 12 | 10 | 3 | 1 | 1 | **40** |
+| SLT | 14 | 12 | 10 | 3 | 1 | 1 | **41** |
 | SLP | 10 | 6 | 9 | 2 | · | 2 | **29** |
 | Retrieval | 1 | · | 1 | · | · | · | **2** |
 | Others | 6 | 6 | 16 | 3 | 3 | 1 | **35** |
-| Linguistics & Cognition | 4 | 4 | 3 | 2 | 3 | 2 | **18** |
-| **Total** | **47** | **38** | **57** | **15** | **18** | **11** | **186** |
+| Linguistics & Cognition | 5 | 7 | 3 | 3 | 5 | 6 | **29** |
+| **Total** | **49** | **41** | **57** | **16** | **20** | **15** | **198** |
 
-**By venue:** `ICASSP` 28 · `ECCV` 20 · `LREC-COLING` 17 · `EMNLP` 11 · `PR` 11 · `CVIU` 10 · `Cognition` 9 · `JSLHR` 9 · `TCSVT` 9 · `TOMM` 7 · `Interspeech` 6 · `NAACL` 5 · `IJCAI` 4 · `SPECOM` 4 · `THMS` 4 · `ICME` 3 · `ICRA` 3 · `IPM` 3 · `IWC` 3 · `COLING` 2 · `Information Sciences` 2 · `Neural Networks` 2 · `ASE` 1 · `DASFAA` 1 · `IJHCI` 1 · `IST` 1 · `IUI` 1 · `JCST` 1 · `MICCAI` 1 · `MobileHCI` 1 · `SCA` 1 · `TAC` 1 · `TGARS` 1 · `TNNLS` 1 · `TSMC` 1 · `WWW` 1
+**By venue:** `ICASSP` 29 · `ECCV` 20 · `LREC-COLING` 17 · `EMNLP` 11 · `PR` 11 · `CVIU` 10 · `CogSci` 10 · `Cognition` 10 · `JSLHR` 9 · `TCSVT` 9 · `TOMM` 7 · `Interspeech` 6 · `NAACL` 5 · `IJCAI` 4 · `SPECOM` 4 · `THMS` 4 · `ICME` 3 · `ICRA` 3 · `IPM` 3 · `IWC` 3 · `COLING` 2 · `Information Sciences` 2 · `Neural Networks` 2 · `ASE` 1 · `DASFAA` 1 · `IJHCI` 1 · `IST` 1 · `IUI` 1 · `JCST` 1 · `MICCAI` 1 · `MobileHCI` 1 · `SCA` 1 · `TAC` 1 · `TGARS` 1 · `TNNLS` 1 · `TSMC` 1 · `WWW` 1
 
 ## 📋 Contents
 
 - [🤟 Isolated Sign Language Recognition (ISLR)](#-isolated-sign-language-recognition-islr) &nbsp;`31`
 - [🎬 Continuous Sign Language Recognition (CSLR)](#-continuous-sign-language-recognition-cslr) &nbsp;`31`
-- [🔤 Sign Language Translation (SLT)](#-sign-language-translation-slt) &nbsp;`40`
+- [🔤 Sign Language Translation (SLT)](#-sign-language-translation-slt) &nbsp;`41`
 - [🧍 Sign Language Production (SLP)](#-sign-language-production-slp) &nbsp;`29`
 - [🔍 Sign Language Retrieval](#-sign-language-retrieval) &nbsp;`2`
 - [📚 Others](#-others) &nbsp;`35`
-- [🧠 Sign Language Linguistics & Cognition](#-sign-language-linguistics--cognition) &nbsp;`18`
+- [🧠 Sign Language Linguistics & Cognition](#-sign-language-linguistics--cognition) &nbsp;`29`
 - 📎 [Not Counted as CCF-B](#-not-counted-as-ccf-b)
 - 🔎 [How This List Was Built](#-how-this-list-was-built)
 
@@ -212,7 +212,7 @@ Venue tiers follow the *CCF Recommended List*, **7th edition (March 2026)**. Onl
 ## 🔤 Sign Language Translation (SLT)
 
 <details open>
-<summary><b>2026</b> &nbsp;·&nbsp; 13 papers</summary>
+<summary><b>2026</b> &nbsp;·&nbsp; 14 papers</summary>
 
 | Title | Authors | Venue | Paper | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:--|:--|
@@ -224,6 +224,7 @@ Venue tiers follow the *CCF Recommended List*, **7th edition (March 2026)**. Onl
 | Video-Text Alignment Model for Sign Language Translation | Hu et al. | `ECCV` | [link](https://eccv.ecva.net/virtual/2026/poster/3633) | — | 视频—文本对齐模型用于手语翻译。 |
 | Conditional Variational Autoencoder for Gloss-Free Sign Language Translation | Mao et al. | `ICASSP` | [link](https://doi.org/10.1109/icassp55912.2026.11461813) | — | 条件变分自编码器做无 gloss 翻译。 |
 | Improving Quantized Gloss-Free Sign Language Translation Model via Disentangled Arithmetic-Prompting | Liu et al. | `ICASSP` | [link](https://doi.org/10.1109/icassp55912.2026.11464469) | — | 解耦算术提示，改进量化后的无 gloss 翻译模型。 |
+| Improving Sign Language Translation via Gloss Guided Temporal and Representation Alignment | Feng | `ICASSP` | [link](https://doi.org/10.1109/icassp55912.2026.11464175) | — | gloss 引导的时序与表征对齐，改进手语翻译。 |
 | Mouthing-Enhanced Multimodal Hierarchical Contrastive Learning for Gloss-Free Sign Language Translation | Wu et al. | `ICASSP` | [link](https://doi.org/10.1109/icassp55912.2026.11463378) | — | 口型增强的多模态层级对比学习，做无 gloss 翻译。 |
 | Variational Nearest Neighbor Sign Language Translation | Zhao et al. | `ICASSP` | [link](https://doi.org/10.1109/icassp55912.2026.11462910) | — | 变分最近邻手语翻译。 |
 | Generative semantic-enhanced vision-language pre-training for sign language translation | Wang & Fang | `IPM` | [link](https://doi.org/10.1016/j.ipm.2026.105234) | — | 生成式语义增强的视觉—语言预训练，用于手语翻译。 |
@@ -485,13 +486,14 @@ Venue tiers follow the *CCF Recommended List*, **7th edition (March 2026)**. Onl
 
 ## 🧠 Sign Language Linguistics & Cognition
 
-Papers on sign language linguistics, psycholinguistics and deaf cognition from CCF-B venues outside computing (Cognition, JSLHR). Listed for completeness; not machine-learning work.
+Papers on sign language linguistics, psycholinguistics and deaf cognition from CCF-B venues outside computing (Cognition, JSLHR, CogSci). Listed for completeness; not machine-learning work.
 
 <details open>
-<summary><b>2026</b> &nbsp;·&nbsp; 4 papers</summary>
+<summary><b>2026</b> &nbsp;·&nbsp; 5 papers</summary>
 
 | Title | Authors | Venue | Paper | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:--|:--|
+| From seeing to understanding: Novice sign language learners shift focus from perceptual to semantic information for newly learned signs | Hillis & Kraemer | `CogSci` | [link](https://escholarship.org/uc/item/2vx527s2) | — | 手语初学者对新学手语从关注感知信息转向语义信息。 |
 | Word recognition and learning in signing deaf toddlers | Campbell et al. | `Cognition` | [link](https://doi.org/10.1016/j.cognition.2026.106499) | — | 使用手语的聋人幼儿的词汇识别与学习。 |
 | Static Versus Dynamic Stimuli in Story Retelling: First Mentions of Main Characters in Sign Language Narratives | Gür & Sümer | `JSLHR` | [link](https://doi.org/10.1044/2026_jslhr-25-00732) | — | 静态与动态刺激对手语叙事中角色首次提及的影响。 |
 | Why Sign Language Research Is Essential for Understanding Language and Language Disorder | Shield | `JSLHR` | [link](https://doi.org/10.1044/2026_jslhr-25-00566) | — | 论述手语研究对理解语言与语言障碍的重要性。 |
@@ -500,10 +502,13 @@ Papers on sign language linguistics, psycholinguistics and deaf cognition from C
 </details>
 
 <details open>
-<summary><b>2025</b> &nbsp;·&nbsp; 4 papers</summary>
+<summary><b>2025</b> &nbsp;·&nbsp; 7 papers</summary>
 
 | Title | Authors | Venue | Paper | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:--|:--|
+| An Intervention Program: Helping Deaf Children with Hearing Parents in Acquiring Turkish Sign Language | Ayar et al. | `CogSci` | [link](https://escholarship.org/uc/item/6wc7w6kp) | — | 帮助听人父母的聋童习得土耳其手语的干预项目。 |
+| Deaf Signers Adapt Their Eye Gaze Behaviour When Processing an Unknown Sign Language | Sander et al. | `CogSci` | [link](https://escholarship.org/uc/item/018384xx) | — | 聋人手语者在加工陌生手语时会调整注视行为。 |
+| The effect of learning Chinese Sign Language on spatial conceptualisation of time in hearing Mandarin speakers | Gu & Lin | `CogSci` | [link](https://escholarship.org/uc/item/5xk6h63n) | — | 学习中国手语对听人普通话使用者时间空间概念化的影响。 |
 | Deaf homesigners can create the foundations of phonetics and phonology without an adult linguistic model | Kita et al. | `Cognition` | [link](https://doi.org/10.1016/j.cognition.2025.106233) | — | 聋人家庭手势使用者在无成人语言模型时自发形成语音与音系基础。 |
 | A Swedish Sign Language Database of Video-Recorded Sign–Pseudosign Pairs With Matching Neighborhood Density and Phonotactic Probability | Witte et al. | `JSLHR` | [link](https://doi.org/10.1044/2025_jslhr-24-00761) | — | 瑞典手语真词—伪词视频对数据库。 |
 | Australian Sign Language Lexicons in a Bilingual–Bicultural Program | West et al. | `JSLHR` | [link](https://doi.org/10.1044/2025_jslhr-24-00651) | — | 双语双文化项目中澳大利亚手语词汇的研究。 |
@@ -523,20 +528,23 @@ Papers on sign language linguistics, psycholinguistics and deaf cognition from C
 </details>
 
 <details open>
-<summary><b>2023</b> &nbsp;·&nbsp; 2 papers</summary>
+<summary><b>2023</b> &nbsp;·&nbsp; 3 papers</summary>
 
 | Title | Authors | Venue | Paper | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:--|:--|
+| Exploring Joint Attention in American Sign Language: The Influence of Sign Familiarity | Sander et al. | `CogSci` | [link](https://escholarship.org/uc/item/5kq2s523) | — | ASL 中的联合注意力及手语熟悉度的影响。 |
 | Speakers aren't blank slates (with respect to sign-language phonology)! | Berent & Gervain | `Cognition` | [link](https://doi.org/10.1016/j.cognition.2022.105347) | — | 口语者对手语音系并非一无所知。 |
 | Learning a Sign Language Does Not Hinder Acquisition of a Spoken Language | Pontecorvo et al. | `JSLHR` | [link](https://doi.org/10.1044/2022_jslhr-22-00505) | — | 学习手语不会妨碍口语习得。 |
 
 </details>
 
 <details open>
-<summary><b>2022</b> &nbsp;·&nbsp; 3 papers</summary>
+<summary><b>2022</b> &nbsp;·&nbsp; 5 papers</summary>
 
 | Title | Authors | Venue | Paper | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:--|:--|
+| Neural mechanisms of event visibility in sign languages | Krebs et al. | `CogSci` | [link](https://escholarship.org/uc/item/5gk5r0jq) | — | 手语事件可见性的神经机制。 |
+| Overlapping Semantic Representations of Sign and Speech in Novice Sign Language Learners | Hillis et al. | `CogSci` | [link](https://escholarship.org/uc/item/4bw8874x) | — | 手语初学者中手语与口语语义表征的重叠。 |
 | Are form priming effects phonological or perceptual? Electrophysiological evidence from American Sign Language | Meade et al. | `Cognition` | [link](https://doi.org/10.1016/j.cognition.2021.104979) | — | ASL 形式启动效应属于音系还是感知的电生理证据。 |
 | Perceptual optimization of language: Evidence from American Sign Language | Caselli et al. | `Cognition` | [link](https://doi.org/10.1016/j.cognition.2022.105040) | — | 来自 ASL 的语言感知优化证据。 |
 | Talking While Signing: The Influence of Simultaneous Communication on the Spoken Language of Bimodal Bilinguals | Rozen-Blay et al. | `JSLHR` | [link](https://doi.org/10.1044/2021_jslhr-21-00326) | — | 同时使用口语与手语对双模态双语者口语的影响。 |
@@ -544,12 +552,16 @@ Papers on sign language linguistics, psycholinguistics and deaf cognition from C
 </details>
 
 <details open>
-<summary><b>2021</b> &nbsp;·&nbsp; 2 papers</summary>
+<summary><b>2021</b> &nbsp;·&nbsp; 6 papers</summary>
 
 | Title | Authors | Venue | Paper | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:--|:--|
+| Application of machine learning to signal entrainment identifies predictive processing in sign language | Borneman et al. | `CogSci` | [link](https://escholarship.org/uc/item/4gr9g2p7) | — | 用机器学习分析信号同步，揭示手语理解中的预测加工。 |
+| Event visibility in sign language motion: Evidence from Austrian Sign Language (ÖGS) | Krebs et al. | `CogSci` | [link](https://escholarship.org/uc/item/67r14298) | — | 运动捕捉研究奥地利手语中事件可见性的运动学特征。 |
+| Spatial Language Use Predicts Spatial Memory of Children: Evidence from Sign, Speech, and Speech-plus-gesture | Karadöller et al. | `CogSci` | [link](https://escholarship.org/uc/item/4vp063gj) | — | 儿童空间语言使用（手语、口语、口语加手势）预测其空间记忆。 |
 | Language development in deaf bilinguals: Deaf middle school students co-activate written English and American Sign Language during lexical processing | Villwock et al. | `Cognition` | [link](https://doi.org/10.1016/j.cognition.2021.104642) | — | 聋人中学生在词汇加工中同时激活书面英语与 ASL。 |
 | Sign language, like spoken language, promotes object categorization in young hearing infants | Novack et al. | `Cognition` | [link](https://doi.org/10.1016/j.cognition.2021.104845) | — | 手语与口语一样能促进婴儿的物体分类。 |
+| Structural biases that children bring to language learning: A cross-cultural look at gestural input to homesign | Flaherty | `Cognition` | [link](https://doi.org/10.1016/j.cognition.2021.104608) | — | 跨文化比较家庭手语使用者所接触的手势输入中的结构偏好。 |
 
 </details>
 
@@ -578,10 +590,10 @@ Also excluded on purpose: workshop papers (e.g. ICASSP / ICME / ICDM workshops, 
 | IJCAI proceedings (full lists) | IJCAI 2021–2026 |
 | ISCA Archive (full lists) | Interspeech 2021–2026 |
 | Crossref (per-ISSN / per-venue title search) | All 111 CCF-B journals; remaining CCF-B conferences (ICASSP, ICME, ICRA, SCA, DASFAA, IUI, MICCAI, MobileHCI via PACM HCI, …) |
+| OpenAlex (12,495 sign-language works, 2021–2026) | Cross-check of every source above against all CCF-B venue names; CogSci (via eScholarship records) |
 
-Known gaps, to be checked:
-- **CogSci** proceedings are not indexed by Crossref and the eScholarship site blocked automated access; not yet searched.
-- Crossref title search is relevance-based; a few conference papers (especially ICASSP) may still be missing.
-- One IPM 2023 paper (*MKL-SING*) is ambiguous between sign-language and signboard recognition and is held back until verified.
+Known gaps:
+- CogSci coverage relies on OpenAlex's eScholarship records and may miss some short papers; CogSci full papers and abstracts are not distinguished.
+- Findings papers of ACL/EMNLP/NAACL are not tracked systematically.
 
 > Key contributions in this file are short summaries written from titles; dataset cells marked `—` are not yet filled. PRs welcome.

@@ -6,7 +6,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 ![Papers](https://img.shields.io/badge/CCF--A_papers-166-blue)
-[![CCF-B](https://img.shields.io/badge/CCF--B_list-186-purple)](CCF-B.md)
+[![CCF-B](https://img.shields.io/badge/CCF--B_list-198-purple)](CCF-B.md)
 ![CCF-A](https://img.shields.io/badge/CCF--A-166-brightgreen)
 ![Years](https://img.shields.io/badge/years-2021--2026-orange)
 ![Updated](https://img.shields.io/badge/updated-2026--10--08-lightgrey)
@@ -39,7 +39,7 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 - 🧍 [Sign Language Production (SLP)](#-sign-language-production-slp) &nbsp;`23`
 - 🔍 [Sign Language Retrieval](#-sign-language-retrieval) &nbsp;`4`
 - 📚 [Others](#-others) &nbsp;`43`
-- ⭐ [CCF-B Venues](#-ccf-b-venues) &nbsp;`186`
+- ⭐ [CCF-B Venues](#-ccf-b-venues) &nbsp;`198`
 - 📌 [Inclusion Criteria](#-inclusion-criteria)
 - 📰 [News](#-news)
 - 🤝 [Contributing](#-contributing)
@@ -504,7 +504,7 @@ Datasets & benchmarks, pre-training & representation learning, fingerspelling, s
 
 ## ⭐ CCF-B Venues
 
-Sign language papers at **CCF-B** conferences and journals (ECCV, EMNLP, NAACL, COLING, IJCAI, Interspeech, ICASSP, ICME, TCSVT, PR, CVIU, TOMM …) are maintained in a separate list: **[CCF-B.md](CCF-B.md)** — 186 papers, same layout as this page.
+Sign language papers at **CCF-B** conferences and journals (ECCV, EMNLP, NAACL, COLING, IJCAI, Interspeech, ICASSP, ICME, TCSVT, PR, CVIU, TOMM …) are maintained in a separate list: **[CCF-B.md](CCF-B.md)** — 198 papers, same layout as this page.
 
 ---
 
@@ -523,6 +523,7 @@ Sign language papers at **CCF-B** conferences and journals (ECCV, EMNLP, NAACL, 
 
 ## 📰 News
 
+- **2026-10-23** — CCF-B.md: added CogSci papers and a full OpenAlex cross-check (186 → 198).
 - **2026-10-23** — New companion list **[CCF-B.md](CCF-B.md)** with 186 papers from CCF-B venues; the former Other Top Venues section moved there.
 - **2026-10-08** — Other Top Venues: added 9 papers from NAACL 2025, EMNLP 2025 and IJCAI 2026.
 - **2026-10-08** — Added 6 NeurIPS 2026 papers (3 main track, 3 Datasets & Benchmarks), 1 TMM 2026, 1 KDD 2026 and 4 CHI 2026 papers.
