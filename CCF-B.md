@@ -4,11 +4,11 @@
 
 **Companion list to [Awesome Sign Language](README.md) — sign language papers at CCF-B conferences and journals since 2021**
 
-![Papers](https://img.shields.io/badge/papers-198-blue)
+![Papers](https://img.shields.io/badge/papers-204-blue)
 ![Years](https://img.shields.io/badge/years-2021--2026-orange)
 ![Updated](https://img.shields.io/badge/updated-2026--11--23-lightgrey)
 
-Venue tiers follow the *CCF Recommended List*, **7th edition (March 2026)**. Only main-track, formally published papers are listed.
+Venue tiers follow the *CCF Recommended List*, **7th edition (March 2026)**. The list includes peer-reviewed full or regular papers with formal acceptance or publication evidence. Eligible conference special tracks are named in the Venue column.
 
 </div>
 
@@ -19,25 +19,25 @@ Venue tiers follow the *CCF Recommended List*, **7th edition (March 2026)**. Onl
 | Direction | 2026 | 2025 | 2024 | 2023 | 2022 | 2021 | **Total** |
 |---|---|---|---|---|---|---|---|
 | ISLR | 4 | 4 | 10 | 2 | 7 | 4 | **31** |
-| CSLR | 9 | 6 | 8 | 3 | 4 | 1 | **31** |
-| SLT | 14 | 12 | 10 | 3 | 1 | 1 | **41** |
+| CSLR | 10 | 6 | 8 | 3 | 4 | 1 | **32** |
+| SLT | 17 | 12 | 10 | 3 | 1 | 1 | **44** |
 | SLP | 10 | 6 | 9 | 2 | · | 2 | **29** |
 | Retrieval | 1 | · | 1 | · | · | · | **2** |
 | Others | 6 | 6 | 16 | 3 | 3 | 1 | **35** |
-| Linguistics & Cognition | 5 | 7 | 3 | 3 | 5 | 6 | **29** |
-| **Total** | **49** | **41** | **57** | **16** | **20** | **15** | **198** |
+| Linguistics & Cognition | 7 | 7 | 3 | 3 | 5 | 6 | **31** |
+| **Total** | **55** | **41** | **57** | **16** | **20** | **15** | **204** |
 
-**By venue:** `ICASSP` 29 · `ECCV` 20 · `LREC-COLING` 17 · `EMNLP` 11 · `PR` 11 · `CVIU` 10 · `CogSci` 10 · `Cognition` 10 · `JSLHR` 9 · `TCSVT` 9 · `TOMM` 7 · `Interspeech` 6 · `NAACL` 5 · `IJCAI` 4 · `SPECOM` 4 · `THMS` 4 · `ICME` 3 · `ICRA` 3 · `IPM` 3 · `IWC` 3 · `COLING` 2 · `Information Sciences` 2 · `Neural Networks` 2 · `ASE` 1 · `DASFAA` 1 · `IJHCI` 1 · `IST` 1 · `IUI` 1 · `JCST` 1 · `MICCAI` 1 · `MobileHCI` 1 · `SCA` 1 · `TAC` 1 · `TGARS` 1 · `TNNLS` 1 · `TSMC` 1 · `World Wide Web (journal)` 1
+**By venue:** `ICASSP` 29 · `ECCV` 20 · `LREC-COLING` 17 · `EMNLP` 15 · `CogSci` 12 · `PR` 11 · `CVIU` 10 · `Cognition` 10 · `JSLHR` 9 · `TCSVT` 9 · `TOMM` 7 · `Interspeech` 6 · `NAACL` 5 · `IJCAI` 4 · `SPECOM` 4 · `THMS` 4 · `ICME` 3 · `ICRA` 3 · `IPM` 3 · `IWC` 3 · `COLING` 2 · `Information Sciences` 2 · `Neural Networks` 2 · `ASE` 1 · `DASFAA` 1 · `IJHCI` 1 · `IST` 1 · `IUI` 1 · `JCST` 1 · `MICCAI` 1 · `MobileHCI` 1 · `SCA` 1 · `TAC` 1 · `TGARS` 1 · `TNNLS` 1 · `TSMC` 1 · `World Wide Web (journal)` 1
 
 ## 📋 Contents
 
 - [🤟 Isolated Sign Language Recognition (ISLR)](#-isolated-sign-language-recognition-islr) &nbsp;`31`
-- [🎬 Continuous Sign Language Recognition (CSLR)](#-continuous-sign-language-recognition-cslr) &nbsp;`31`
-- [🔤 Sign Language Translation (SLT)](#-sign-language-translation-slt) &nbsp;`41`
+- [🎬 Continuous Sign Language Recognition (CSLR)](#-continuous-sign-language-recognition-cslr) &nbsp;`32`
+- [🔤 Sign Language Translation (SLT)](#-sign-language-translation-slt) &nbsp;`44`
 - [🧍 Sign Language Production (SLP)](#-sign-language-production-slp) &nbsp;`29`
 - [🔍 Sign Language Retrieval](#-sign-language-retrieval) &nbsp;`2`
 - [📚 Others](#-others) &nbsp;`35`
-- [🧠 Sign Language Linguistics & Cognition](#-sign-language-linguistics--cognition) &nbsp;`29`
+- [🧠 Sign Language Linguistics & Cognition](#-sign-language-linguistics--cognition) &nbsp;`31`
 - 📎 [Not Counted as CCF-B](#-not-counted-as-ccf-b)
 - 🔎 [How This List Was Built](#-how-this-list-was-built)
 
@@ -129,7 +129,7 @@ Venue tiers follow the *CCF Recommended List*, **7th edition (March 2026)**. Onl
 ## 🎬 Continuous Sign Language Recognition (CSLR)
 
 <details open>
-<summary><b>2026</b> &nbsp;·&nbsp; 9 papers</summary>
+<summary><b>2026</b> &nbsp;·&nbsp; 10 papers</summary>
 
 | Title | Authors | Venue | Paper | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:--|:--|
@@ -142,6 +142,7 @@ Venue tiers follow the *CCF Recommended List*, **7th edition (March 2026)**. Onl
 | No blind alignment but generation: A different view of continuous sign language recognition based on diffusion | Geng et al. | `PR` | [link](https://doi.org/10.1016/j.patcog.2025.111960) | — | 用扩散生成代替盲对齐的连续识别新思路。 |
 | SignDAGC: Dynamic axial graph structure for continuous sign language recognition and translation | Hu et al. | `PR` | [link](https://doi.org/10.1016/j.patcog.2026.113947) | — | 动态轴向图结构，做连续识别与翻译。 |
 | DESign: Dynamic Context-Aware Convolution and Efficient Subnet Regularization for Continuous Sign Language Recognition | Liu et al. | `TCSVT` | [link](https://doi.org/10.1109/tcsvt.2026.3738721) | — | 动态上下文卷积与子网正则化的连续识别。 |
+| Beyond CTC Spikes: LLM-Driven Gloss-Temporal Supervision for Continuous Sign Language Recognition | Zhu et al. | `EMNLP` | [link](https://aclanthology.org/2026.emnlp-main.578/) | — | 借助 LLM 构造 gloss 到帧区间的稠密监督，联合帧级和序列级目标强化时序对齐。 |
 
 </details>
 
@@ -212,7 +213,7 @@ Venue tiers follow the *CCF Recommended List*, **7th edition (March 2026)**. Onl
 ## 🔤 Sign Language Translation (SLT)
 
 <details open>
-<summary><b>2026</b> &nbsp;·&nbsp; 14 papers</summary>
+<summary><b>2026</b> &nbsp;·&nbsp; 17 papers</summary>
 
 | Title | Authors | Venue | Paper | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:--|:--|
@@ -230,6 +231,9 @@ Venue tiers follow the *CCF Recommended List*, **7th edition (March 2026)**. Onl
 | Generative semantic-enhanced vision-language pre-training for sign language translation | Wang & Fang | `IPM` | [link](https://doi.org/10.1016/j.ipm.2026.105234) | — | 生成式语义增强的视觉—语言预训练，用于手语翻译。 |
 | SSL-SSAW: Self-supervised Learning with Sigmoid Self-attention Weighting for question-based Sign Language Translation | Liu et al. | `PR` | [link](https://doi.org/10.1016/j.patcog.2026.114189) | — | 自监督加 Sigmoid 自注意力加权，做问题驱动的手语翻译。 |
 | Retrieval-Augmented Sign Language Translation | Yao et al. | `TOMM` | [link](https://doi.org/10.1145/3771277) | — | 检索增强的手语翻译。 |
+| DiscoSign: Discourse-Aware Text to Sign Language Gloss Translation | Baltatzis et al. | `EMNLP` | [link](https://aclanthology.org/2026.emnlp-main.183/) | — | 在英语到 ASL gloss 的篇章翻译中建模空间共指、问答分句和概念一致性，并提出相应的评测指标。 |
+| FEA-SLT: A Gloss-Free End-to-End Framework for Facial-Expression-Aware Sign Language Translation | Tu & Weng | `EMNLP` | [link](https://aclanthology.org/2026.emnlp-main.1999/) | PHOENIX-2014T, CSL-Daily | 用表情编码器和双向调制融合面部与手部线索，改善对依赖非手部信号的句子的翻译。 |
+| FiMA: Redundancy-Aware Description Enhancement for Gloss-Free Sign Language Translation | Liu et al. | `EMNLP` | [link](https://aclanthology.org/2026.emnlp-main.2253/) | PHOENIX-2014T, CSL-Daily | 去除帧描述中的重复模板特征，再用局部最大相似度把文本 token 与相关视频帧对齐。 |
 
 </details>
 
@@ -489,7 +493,7 @@ Venue tiers follow the *CCF Recommended List*, **7th edition (March 2026)**. Onl
 Papers on sign language linguistics, psycholinguistics and deaf cognition from CCF-B venues outside computing (Cognition, JSLHR, CogSci). Listed for completeness; not machine-learning work.
 
 <details open>
-<summary><b>2026</b> &nbsp;·&nbsp; 5 papers</summary>
+<summary><b>2026</b> &nbsp;·&nbsp; 7 papers</summary>
 
 | Title | Authors | Venue | Paper | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:--|:--|
@@ -498,6 +502,8 @@ Papers on sign language linguistics, psycholinguistics and deaf cognition from C
 | Static Versus Dynamic Stimuli in Story Retelling: First Mentions of Main Characters in Sign Language Narratives | Gür & Sümer | `JSLHR` | [link](https://doi.org/10.1044/2026_jslhr-25-00732) | — | 静态与动态刺激对手语叙事中角色首次提及的影响。 |
 | Why Sign Language Research Is Essential for Understanding Language and Language Disorder | Shield | `JSLHR` | [link](https://doi.org/10.1044/2026_jslhr-25-00566) | — | 论述手语研究对理解语言与语言障碍的重要性。 |
 | Working Memory Relates to Second Language American Sign Language Comprehension in Deaf Adults, But First Language English Reading Does Not | Kraus & Gagne | `JSLHR` | [link](https://doi.org/10.1044/2026_jslhr-25-01043) | — | 工作记忆与聋人成人二语 ASL 理解的关系。 |
+| A Representational Analysis of Numeration Systems in Sign Languages | Anceschi & Bender | `CogSci` | [link](https://escholarship.org/uc/item/7wr256pq) | — | 比较 63 种手语的数制，分析基数与幂次维度如何受到表达透明度和构形经济性的影响。 |
+| Human Lexical Semantics are not Universal: Colexification Evidence from Western and Asian Signed Languages | Lu et al. | `CogSci` | [link](https://escholarship.org/uc/item/9hh34053) | — | 跨三种手语和 14 种口语比较词义共表达模式，研究象似性对隐喻性多义的约束。 |
 
 </details>
 
@@ -571,7 +577,7 @@ Papers on sign language linguistics, psycholinguistics and deaf cognition from C
 
 ## 📎 Not Counted as CCF-B
 
-Kept here so they are not lost; they do not meet the CCF-B main-track rule.
+These related papers fall outside the CCF-B inclusion criteria.
 
 | Title | Authors | Venue | Why not counted |
 |:--|:--|:--|:--|
@@ -579,7 +585,7 @@ Kept here so they are not lost; they do not meet the CCF-B main-track rule.
 | [Cross-modality Data Augmentation for End-to-End Sign Language Translation](https://aclanthology.org/2023.findings-emnlp.904/) | Ye et al. | `EMNLP Findings 2023` | Findings, not the EMNLP main conference |
 | [Weakly-supervised Fingerspelling Recognition in British Sign Language Videos](https://arxiv.org/abs/2211.08954) | Prajwal et al. | `BMVC 2022` | BMVC is CCF-C |
 
-Also excluded on purpose: workshop papers (e.g. ICASSP / ICME / ICDM workshops, ISMAR-Adjunct), demo tracks, companion / extended abstracts, and look-alike venues that share an acronym with a CCF-B venue (IEEE Sensors Applications Symposium ≠ SAS; CSCW in Design ≠ ECSCW; ICRAI ≠ ICRA).
+Excluded formats include workshop papers (e.g. ICASSP / ICME / ICDM workshops, ISMAR-Adjunct), *Findings*, demos, short papers, abstracts, preprint-only records, and look-alike venues that share an acronym with a CCF-B venue (IEEE Sensors Applications Symposium ≠ SAS; CSCW in Design ≠ ECSCW; ICRAI ≠ ICRA).
 
 ## 🔎 How This List Was Built
 
@@ -593,7 +599,7 @@ Also excluded on purpose: workshop papers (e.g. ICASSP / ICME / ICDM workshops, 
 | OpenAlex (12,495 sign-language works, 2021–2026) | Cross-check of every source above against all CCF-B venue names; CogSci (via eScholarship records) |
 
 Known gaps:
-- CogSci coverage relies on OpenAlex's eScholarship records and may miss some short papers; CogSci full papers and abstracts are not distinguished.
+- Older CogSci entries were collected from OpenAlex and eScholarship and still need a paper-type audit. New 2026 CogSci entries were checked against the full proceedings PDFs.
 - Findings papers of ACL/EMNLP/NAACL are not tracked systematically.
 
-> Key contributions in this file are short summaries written from titles; dataset cells marked `—` are not yet filled. PRs welcome.
+> Some older contribution summaries were written from titles. The 2026 additions use the paper abstracts or full text. Dataset cells marked `—` are not yet filled. PRs welcome.
