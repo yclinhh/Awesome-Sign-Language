@@ -5,11 +5,11 @@
 **A curated list of sign language papers published at CCF-A venues since 2021**
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Papers](https://img.shields.io/badge/CCF--A_papers-166-blue)
+![Papers](https://img.shields.io/badge/CCF--A_papers-165-blue)
 [![CCF-B](https://img.shields.io/badge/CCF--B_list-198-purple)](CCF-B.md)
-![CCF-A](https://img.shields.io/badge/CCF--A-166-brightgreen)
+![CCF-A](https://img.shields.io/badge/CCF--A-165-brightgreen)
 ![Years](https://img.shields.io/badge/years-2021--2026-orange)
-![Updated](https://img.shields.io/badge/updated-2026--10--08-lightgrey)
+![Updated](https://img.shields.io/badge/updated-2026--11--23-lightgrey)
 
 Venue tiers follow the *CCF Recommended List of International Conferences and Journals*, **7th edition (March 2026)**.
 
@@ -23,17 +23,17 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 
 | Direction | 2026 | 2025 | 2024 | 2023 | 2022 | 2021 | **Total** |
 |---|---|---|---|---|---|---|---|
-| ISLR | · | 2 | 4 | 5 | 2 | 3 | **16** |
+| ISLR | · | 2 | 4 | 5 | 2 | 2 | **15** |
 | CSLR | 3 | 4 | 5 | 9 | 2 | 3 | **26** |
 | SLT | 13 | 10 | 8 | 9 | 6 | 8 | **54** |
 | SLP | 8 | 5 | 2 | 2 | 3 | 3 | **23** |
 | Retrieval | 1 | · | 1 | 1 | 1 | · | **4** |
 | Others | 15 | 8 | 3 | 3 | 7 | 7 | **43** |
-| **Total** | **40** | **29** | **23** | **29** | **21** | **24** | **166** |
+| **Total** | **40** | **29** | **23** | **29** | **21** | **23** | **165** |
 
 ## 📋 Contents
 
-- 🤟 [Isolated Sign Language Recognition (ISLR)](#-isolated-sign-language-recognition-islr) &nbsp;`16`
+- 🤟 [Isolated Sign Language Recognition (ISLR)](#-isolated-sign-language-recognition-islr) &nbsp;`15`
 - 🎬 [Continuous Sign Language Recognition (CSLR)](#-continuous-sign-language-recognition-cslr) &nbsp;`26`
 - 🔤 [Sign Language Translation (SLT)](#-sign-language-translation-slt) &nbsp;`54`
 - 🧍 [Sign Language Production (SLP)](#-sign-language-production-slp) &nbsp;`23`
@@ -54,7 +54,7 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 | Title | Authors | Venue | Paper | Code | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:-:|:--|:--|
 | Cross-View Isolated Sign Language Recognition via View Synthesis and Feature Disentanglement | Shen et al. | `ICCV` | [link](https://openaccess.thecvf.com/content/ICCV2025/html/Shen_Cross-View_Isolated_Sign_Language_Recognition_via_View_Synthesis_and_Feature_Disentanglement_ICCV2025_paper.html) | — | — | 通过视角合成与特征解耦，解决跨视角的孤立词识别。 |
-| Scaling up Multimodal Pre-training for Sign Language Understanding | Zhou et al. | `TPAMI` | — | — | 多数据集 | 大规模多模态手语预训练，统一覆盖识别、翻译与检索等任务。 |
+| Scaling up Multimodal Pre-training for Sign Language Understanding | Zhou et al. | `TPAMI` | [link](https://doi.org/10.1109/TPAMI.2025.3599313) | — | 多数据集 | 大规模多模态手语预训练，统一覆盖识别、翻译与检索等任务。 |
 
 </details>
 
@@ -94,13 +94,12 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 </details>
 
 <details open>
-<summary><b>2021</b> &nbsp;·&nbsp; 3 papers</summary>
+<summary><b>2021</b> &nbsp;·&nbsp; 2 papers</summary>
 
 | Title | Authors | Venue | Paper | Code | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:-:|:--|:--|
-| Hand-Model-Aware Sign Language Recognition | Hu et al. | `AAAI` | — | — | NMFs-CSL, SLR500, MSASL | 把统计手部模型作为先验嵌入识别网络，缓解手部自遮挡。 |
+| Hand-Model-Aware Sign Language Recognition | Hu et al. | `AAAI` | [link](https://ojs.aaai.org/index.php/AAAI/article/view/16247) | — | NMFs-CSL, SLR500, MSASL | 把统计手部模型作为先验嵌入识别网络，缓解手部自遮挡。 |
 | SignBERT: Pre-Training of Hand-Model-Aware Representation for Sign Language Recognition | Hu et al. | `ICCV` | [link](https://arxiv.org/abs/2109.05304) | — | NMFs-CSL, SLR500, MSASL, WLASL | 以手部模型为先验的自监督预训练，用掩码手势重建学习手语表征。 |
-| Global-Local Enhancement Network for NMF-Aware Sign Language Recognition | Hu et al. | `TMM` | [link](https://arxiv.org/abs/2008.10428) | — | NMFs-CSL, SLR500 | 全局-局部双分支建模非手部动作（NMF），提出 NMFs-CSL 数据集。 |
 
 </details>
 
@@ -138,7 +137,7 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 |:--|:--|:--|:-:|:-:|:--|:--|
 | Cross-Sentence Gloss Consistency for Continuous Sign Language Recognition | Rao et al. | `AAAI` | [link](https://doi.org/10.1609/aaai.v38i5.28265) | — | — | 约束同一 gloss 在不同句子间表示一致。 |
 | TCNet: Continuous Sign Language Recognition from Trajectories and Correlated Regions | Lu et al. | `AAAI` | [link](https://doi.org/10.1609/aaai.v38i4.28181) | — | — | 联合建模运动轨迹与相关区域，改进连续手语识别。 |
-| SignGraph: A Sign Sequence is Worth Graphs of Nodes | Gan et al. | `CVPR` | — | [code](https://github.com/gswycf/SignGraph) | PHOENIX-2014, PHOENIX-2014T, CSL-Daily | 把手语视频建成图结构，跨帧跨区域聚合节点特征。 |
+| SignGraph: A Sign Sequence is Worth Graphs of Nodes | Gan et al. | `CVPR` | [link](https://openaccess.thecvf.com/content/CVPR2024/html/Gan_SignGraph_A_Sign_Sequence_is_Worth_Graphs_of_Nodes_CVPR_2024_paper.html) | [code](https://github.com/gswycf/SignGraph) | PHOENIX-2014, PHOENIX-2014T, CSL-Daily | 把手语视频建成图结构，跨帧跨区域聚合节点特征。 |
 | Gloss Prior Guided Visual Feature Learning for Continuous Sign Language Recognition | Guo et al. | `TIP` | [link](https://doi.org/10.1109/tip.2024.3404869) | — | — | 用 gloss 先验引导视觉特征学习。 |
 | EvCSLR: Event-Guided Continuous Sign Language Recognition and Benchmark | Jiang et al. | `TMM` | [link](https://doi.org/10.1109/tmm.2024.3521750) | — | — | 事件相机引导的连续手语识别，并建立基准。 |
 
@@ -153,9 +152,9 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 | AdaBrowse: Adaptive Video Browser for Efficient Continuous Sign Language Recognition | Hu et al. | `ACM MM` | [link](https://arxiv.org/abs/2308.08327) | [code](https://github.com/hulianyuyy/AdaBrowse) | PHOENIX-2014, PHOENIX-2014T, CSL-Daily | 自适应选择输入序列长度与分辨率，显著降低推理开销。 |
 | Towards Real-Time Sign Language Recognition and Translation on Edge Devices | Gan et al. | `ACM MM` | [link](https://doi.org/10.1145/3581783.3611820) | — | — | 面向边缘设备的实时手语识别与翻译。 |
 | Continuous Sign Language Recognition with Correlation Network | Hu et al. | `CVPR` | [link](https://arxiv.org/abs/2303.03202) | [code](https://github.com/hulianyuyy/CorrNet) | PHOENIX-2014, PHOENIX-2014T, CSL-Daily | 相关性模块显式捕捉相邻帧间身体轨迹的关联。 |
-| Distilling Cross-Temporal Contexts for Continuous Sign Language Recognition | Guo et al. | `CVPR` | — | — | PHOENIX-2014, PHOENIX-2014T, CSL-Daily | 蒸馏不同时间尺度的上下文，融合局部与全局时序线索。 |
-| C2ST: Cross-modal Contextualized Sequence Transduction for Continuous Sign Language Recognition | Zhang et al. | `ICCV` | — | — | PHOENIX-2014, PHOENIX-2014T, CSL-Daily | 把 gloss 语言上下文注入序列转录过程，替代纯 CTC 解码。 |
-| CoSign: Exploring Co-occurrence Signals in Skeleton-based Continuous Sign Language Recognition | Jiao et al. | `ICCV` | — | — | PHOENIX-2014, PHOENIX-2014T, CSL-Daily | 基于骨架建模多部位共现信号，轻量且无需 RGB 输入。 |
+| Distilling Cross-Temporal Contexts for Continuous Sign Language Recognition | Guo et al. | `CVPR` | [link](https://openaccess.thecvf.com/content/CVPR2023/html/Guo_Distilling_Cross-Temporal_Contexts_for_Continuous_Sign_Language_Recognition_CVPR_2023_paper.html) | — | PHOENIX-2014, PHOENIX-2014T, CSL-Daily | 蒸馏不同时间尺度的上下文，融合局部与全局时序线索。 |
+| C2ST: Cross-modal Contextualized Sequence Transduction for Continuous Sign Language Recognition | Zhang et al. | `ICCV` | [link](https://openaccess.thecvf.com/content/ICCV2023/html/Zhang_C2ST_Cross-Modal_Contextualized_Sequence_Transduction_for_Continuous_Sign_Language_Recognition_ICCV_2023_paper.html) | — | PHOENIX-2014, PHOENIX-2014T, CSL-Daily | 把 gloss 语言上下文注入序列转录过程，替代纯 CTC 解码。 |
+| CoSign: Exploring Co-occurrence Signals in Skeleton-based Continuous Sign Language Recognition | Jiao et al. | `ICCV` | [link](https://openaccess.thecvf.com/content/ICCV2023/html/Jiao_CoSign_Exploring_Co-occurrence_Signals_in_Skeleton-based_Continuous_Sign_Language_Recognition_ICCV_2023_paper.html) | — | PHOENIX-2014, PHOENIX-2014T, CSL-Daily | 基于骨架建模多部位共现信号，轻量且无需 RGB 输入。 |
 | Improving Continuous Sign Language Recognition with Cross-Lingual Signs | Wei & Chen | `ICCV` | [link](https://arxiv.org/abs/2308.10809) | — | PHOENIX-2014, PHOENIX-2014T, CSL-Daily | 借跨语种手语词的视觉相似性做跨语言数据增强。 |
 | Prior-Aware Cross Modality Augmentation Learning for Continuous Sign Language Recognition | Guo et al. | `TMM` | — | — | PHOENIX-2014, PHOENIX-2014T, CSL | 利用 gloss 先验做跨模态数据增强，缓解标注稀缺。 |
 
@@ -166,7 +165,7 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 
 | Title | Authors | Venue | Paper | Code | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:-:|:--|:--|
-| C2SLR: Consistency-Enhanced Continuous Sign Language Recognition | Zuo & Mak | `CVPR` | — | — | PHOENIX-2014, PHOENIX-2014T, CSL-Daily | 用姿态与注意力一致性约束同时正则空间与时序建模。 |
+| C2SLR: Consistency-Enhanced Continuous Sign Language Recognition | Zuo & Mak | `CVPR` | [link](https://openaccess.thecvf.com/content/CVPR2022/html/Zuo_C2SLR_Consistency-Enhanced_Continuous_Sign_Language_Recognition_CVPR_2022_paper.html) | — | PHOENIX-2014, PHOENIX-2014T, CSL-Daily | 用姿态与注意力一致性约束同时正则空间与时序建模。 |
 | Collaborative Multilingual Continuous Sign Language Recognition: A Unified Framework | Hu et al. | `TMM` | [link](https://doi.org/10.1109/tmm.2022.3223260) | — | — | 多语种协同的统一连续手语识别框架。 |
 
 </details>
@@ -176,7 +175,7 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 
 | Title | Authors | Venue | Paper | Code | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:-:|:--|:--|
-| Self-Mutual Distillation Learning for Continuous Sign Language Recognition | Hao et al. | `ICCV` | — | — | PHOENIX-2014, PHOENIX-2014T | 视觉与序列模块间互蒸馏，让视觉分支学到更强的短时语义。 |
+| Self-Mutual Distillation Learning for Continuous Sign Language Recognition | Hao et al. | `ICCV` | [link](https://openaccess.thecvf.com/content/ICCV2021/html/Hao_Self-Mutual_Distillation_Learning_for_Continuous_Sign_Language_Recognition_ICCV_2021_paper.html) | — | PHOENIX-2014, PHOENIX-2014T | 视觉与序列模块间互蒸馏，让视觉分支学到更强的短时语义。 |
 | Visual Alignment Constraint for Continuous Sign Language Recognition | Min et al. | `ICCV` | [link](https://arxiv.org/abs/2104.02330) | [code](https://github.com/ycmin95/VAC_CSLR) | PHOENIX-2014, PHOENIX-2014T, CSL | 用对齐约束强化视觉特征提取器，缓解 CTC 训练下的过拟合。 |
 | Spatial-Temporal Multi-Cue Network for Sign Language Recognition and Translation | Zhou et al. | `TMM` | [link](https://arxiv.org/abs/2002.03187) | — | PHOENIX-2014, PHOENIX-2014T, CSL | 多线索（全身/手/脸/姿态）时空网络，统一支持识别与翻译。 |
 
@@ -253,7 +252,7 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 | Gloss-free Sign Language Translation: Improving from Visual-Language Pretraining | Zhou et al. | `ICCV` | [link](https://arxiv.org/abs/2307.14768) | [code](https://github.com/zhoubenjia/GFSLT-VLP) | PHOENIX-2014T, CSL-Daily | 视觉-语言预训练对齐视频与文本语义，大幅提升无 gloss 翻译。 |
 | Sign Language Translation with Iterative Prototype | Yao et al. | `ICCV` | [link](https://arxiv.org/abs/2308.12191) | — | PHOENIX-2014T, CSL-Daily | 迭代refine原型表示，逐步逼近准确的语义单元。 |
 | SLTUNET: A Simple Unified Model for Sign Language Translation | Zhang et al. | `ICLR` | [link](https://arxiv.org/abs/2305.01778) | [code](https://github.com/bzhangGo/sltunet) | PHOENIX-2014T, CSL-Daily | 单一模型统一多任务多模态，共享表示提升翻译质量。 |
-| Auslan-Daily: Australian Sign Language Translation for Daily Communication and News | Shen et al. | `NeurIPS` | — | — | Auslan-Daily | 发布覆盖日常对话与新闻场景的澳大利亚手语翻译数据集。 |
+| Auslan-Daily: Australian Sign Language Translation for Daily Communication and News | Shen et al. | `NeurIPS` | [link](https://proceedings.neurips.cc/paper_files/paper/2023/hash/feb34ce77fc8b94c85d12e608b23ce67-Abstract.html) | — | Auslan-Daily | 发布覆盖日常对话与新闻场景的澳大利亚手语翻译数据集。 |
 | YouTube-ASL: A Large-Scale, Open-Domain American Sign Language-English Parallel Corpus | Uthus et al. | `NeurIPS` | [link](https://arxiv.org/abs/2306.15162) | — | YouTube-ASL, How2Sign | 构建开放域大规模 ASL-英语平行语料，规模约为 How2Sign 的 3 倍。 |
 
 </details>
@@ -265,7 +264,7 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 |:--|:--|:--|:-:|:-:|:--|:--|
 | MC-SLT: Towards Low-Resource Signer-Adaptive Sign Language Translation | Jin et al. | `ACM MM` | [link](https://doi.org/10.1145/3503161.3548069) | — | — | 低资源场景下的签名者自适应翻译。 |
 | A Simple Multi-Modality Transfer Learning Baseline for Sign Language Translation | Chen et al. | `CVPR` | [link](https://arxiv.org/abs/2203.04287) | [code](https://github.com/FangyunWei/SLRT) | PHOENIX-2014T, CSL-Daily | 用渐进式预训练把通用视觉与语言模型迁移到 SLT，成为强基线。 |
-| MLSLT: Towards Multilingual Sign Language Translation | Yin et al. | `CVPR` | — | — | SP-10 | 首个多语种手语翻译工作，发布覆盖 10 种手语的 SP-10 数据集。 |
+| MLSLT: Towards Multilingual Sign Language Translation | Yin et al. | `CVPR` | [link](https://openaccess.thecvf.com/content/CVPR2022/html/Yin_MLSLT_Towards_Multilingual_Sign_Language_Translation_CVPR_2022_paper.html) | — | SP-10 | 首个多语种手语翻译工作，发布覆盖 10 种手语的 SP-10 数据集。 |
 | Addressing Resource Scarcity across Sign Languages with Multilingual Pretraining and Unified-Vocabulary Datasets | Yin et al. | `NeurIPS` | — | — | SP-10, PHOENIX-2014T | 多语种预训练加统一词表，缓解低资源手语数据稀缺。 |
 | Two-Stream Network for Sign Language Recognition and Translation | Chen et al. | `NeurIPS` | [link](https://arxiv.org/abs/2211.01367) | [code](https://github.com/FangyunWei/SLRT/tree/main/TwoStreamNetwork) | PHOENIX-2014, PHOENIX-2014T, CSL-Daily | RGB 与关键点双流互促，同时刷新识别与翻译性能。 |
 | SignNet II: A Transformer-Based Two-Way Sign Language Translation Model | Chaudhary et al. | `TPAMI` | [link](https://doi.org/10.1109/tpami.2022.3232389) | — | — | 双向（手语↔文本）翻译的 Transformer 模型。 |
@@ -278,7 +277,7 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 | Title | Authors | Venue | Paper | Code | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:-:|:--|:--|
 | Contrastive Disentangled Meta-Learning for Signer-Independent Sign Language Translation | Ye et al. | `ACM MM` | — | — | PHOENIX-2014T, CSL | 对比解耦 + 元学习，提升跨签名者泛化。 |
-| SimulSLT: End-to-End Simultaneous Sign Language Translation | Yin et al. | `ACM MM` | — | — | PHOENIX-2014T | 端到端同声手语翻译，用等待策略在时延与质量间折中。 |
+| SimulSLT: End-to-End Simultaneous Sign Language Translation | Yin et al. | `ACM MM` | [link](https://doi.org/10.1145/3474085.3475544) | — | PHOENIX-2014T | 端到端同声手语翻译，用等待策略在时延与质量间折中。 |
 | Skeleton-Aware Neural Sign Language Translation | Chen et al. | `ACM MM` | — | — | PHOENIX-2014T, CSL | 引入骨架信息辅助翻译，降低对外观与背景的依赖。 |
 | Improving Sign Language Translation With Monolingual Data by Sign Back-Translation | Zhou et al. | `CVPR` | [link](https://arxiv.org/abs/2105.12397) | — | PHOENIX-2014T, CSL-Daily | 提出手语回译，用单语文本合成伪手语数据；发布 CSL-Daily 数据集。 |
 | Aligning Subtitles in Sign Language Videos | Bull et al. | `ICCV` | [link](https://arxiv.org/abs/2105.02877) | — | BOBSL | 用 Transformer 对齐手语视频与字幕时间轴，为大规模弱标注铺路。 |
@@ -357,7 +356,7 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 
 | Title | Authors | Venue | Paper | Code | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:-:|:--|:--|
-| Towards Fast and High-Quality Sign Language Production | Huang et al. | `ACM MM` | — | — | PHOENIX-2014T | 非自回归生成框架，兼顾生成速度与姿态质量。 |
+| Towards Fast and High-Quality Sign Language Production | Huang et al. | `ACM MM` | [link](https://doi.org/10.1145/3474085.3475463) | — | PHOENIX-2014T | 非自回归生成框架，兼顾生成速度与姿态质量。 |
 | Mixed SIGNals: Sign Language Production via a Mixture of Motion Primitives | Saunders et al. | `ICCV` | [link](https://arxiv.org/abs/2107.11317) | — | PHOENIX-2014T | 把手语生成分解为运动基元的混合，提升长序列生成稳定性。 |
 | Continuous 3D Multi-Channel Sign Language Production via Progressive Transformers and Mixture Density Networks | Saunders et al. | `IJCV` | [link](https://arxiv.org/abs/2103.06982) | — | PHOENIX-2014T | 渐进式 Transformer 加混合密度网络，连续生成多通道 3D 手语。 |
 
@@ -466,7 +465,7 @@ Datasets & benchmarks, pre-training & representation learning, fingerspelling, s
 |:--|:--|:--|:-:|:-:|:--|:--|
 | Community-Driven Information Accessibility: Online Sign Language Content Creation within d/Deaf Communities | Tang et al. | `CHI` | [link](https://doi.org/10.1145/3544548.3581286) | — | — | 研究聋人社区在线手语内容的创作与信息无障碍。 |
 | ASL Citizen: A Community-Sourced Dataset for Advancing Isolated Sign Language Recognition | Desai et al. | `NeurIPS` | [link](https://arxiv.org/abs/2304.05934) | — | ASL Citizen | 社区众包采集的大规模 ISLR 数据集，聚焦手语词典检索场景。 |
-| PopSign ASL v1.0: An Isolated American Sign Language Dataset Collected via Smartphones | Starner et al. | `NeurIPS` | — | — | PopSign ASL | 用手机采集的 ISLR 数据集，面向儿童手语学习游戏场景。 |
+| PopSign ASL v1.0: An Isolated American Sign Language Dataset Collected via Smartphones | Starner et al. | `NeurIPS` | [link](https://proceedings.neurips.cc/paper_files/paper/2023/hash/00dada608b8db212ea7d9d92b24c68de-Abstract-Datasets_and_Benchmarks.html) | — | PopSign ASL | 用手机采集的 ISLR 数据集，面向儿童手语学习游戏场景。 |
 
 </details>
 
@@ -523,6 +522,7 @@ Sign language papers at **CCF-B** conferences and journals (ECCV, EMNLP, NAACL, 
 
 ## 📰 News
 
+- **2026-11-23** — Removed a duplicate CCF-B paper from the CCF-A list, clarified the World Wide Web journal label in the CCF-B list, and filled 13 verified paper links.
 - **2026-10-23** — CCF-B.md: added CogSci papers and a full OpenAlex cross-check (186 → 198).
 - **2026-10-23** — New companion list **[CCF-B.md](CCF-B.md)** with 186 papers from CCF-B venues; the former Other Top Venues section moved there.
 - **2026-10-08** — Other Top Venues: added 9 papers from NAACL 2025, EMNLP 2025 and IJCAI 2026.
