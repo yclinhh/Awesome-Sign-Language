@@ -6,7 +6,7 @@
 
 ![Papers](https://img.shields.io/badge/papers-198-blue)
 ![Years](https://img.shields.io/badge/years-2021--2026-orange)
-![Updated](https://img.shields.io/badge/updated-2026--10--23-lightgrey)
+![Updated](https://img.shields.io/badge/updated-2026--11--23-lightgrey)
 
 Venue tiers follow the *CCF Recommended List*, **7th edition (March 2026)**. Only main-track, formally published papers are listed.
 
@@ -27,7 +27,7 @@ Venue tiers follow the *CCF Recommended List*, **7th edition (March 2026)**. Onl
 | Linguistics & Cognition | 5 | 7 | 3 | 3 | 5 | 6 | **29** |
 | **Total** | **49** | **41** | **57** | **16** | **20** | **15** | **198** |
 
-**By venue:** `ICASSP` 29 · `ECCV` 20 · `LREC-COLING` 17 · `EMNLP` 11 · `PR` 11 · `CVIU` 10 · `CogSci` 10 · `Cognition` 10 · `JSLHR` 9 · `TCSVT` 9 · `TOMM` 7 · `Interspeech` 6 · `NAACL` 5 · `IJCAI` 4 · `SPECOM` 4 · `THMS` 4 · `ICME` 3 · `ICRA` 3 · `IPM` 3 · `IWC` 3 · `COLING` 2 · `Information Sciences` 2 · `Neural Networks` 2 · `ASE` 1 · `DASFAA` 1 · `IJHCI` 1 · `IST` 1 · `IUI` 1 · `JCST` 1 · `MICCAI` 1 · `MobileHCI` 1 · `SCA` 1 · `TAC` 1 · `TGARS` 1 · `TNNLS` 1 · `TSMC` 1 · `WWW` 1
+**By venue:** `ICASSP` 29 · `ECCV` 20 · `LREC-COLING` 17 · `EMNLP` 11 · `PR` 11 · `CVIU` 10 · `CogSci` 10 · `Cognition` 10 · `JSLHR` 9 · `TCSVT` 9 · `TOMM` 7 · `Interspeech` 6 · `NAACL` 5 · `IJCAI` 4 · `SPECOM` 4 · `THMS` 4 · `ICME` 3 · `ICRA` 3 · `IPM` 3 · `IWC` 3 · `COLING` 2 · `Information Sciences` 2 · `Neural Networks` 2 · `ASE` 1 · `DASFAA` 1 · `IJHCI` 1 · `IST` 1 · `IUI` 1 · `JCST` 1 · `MICCAI` 1 · `MobileHCI` 1 · `SCA` 1 · `TAC` 1 · `TGARS` 1 · `TNNLS` 1 · `TSMC` 1 · `World Wide Web (journal)` 1
 
 ## 📋 Contents
 
@@ -108,7 +108,7 @@ Venue tiers follow the *CCF Recommended List*, **7th edition (March 2026)**. Onl
 | Sensors to Sign Language: A Natural Approach to Equitable Communication | Fouts et al. | `ICASSP` | [link](https://doi.org/10.1109/icassp43922.2022.9747385) | — | 基于传感器的手语识别，促进平等交流。 |
 | L-Sign: Large-Vocabulary Sign Gestures Recognition System | Zheng et al. | `THMS` | [link](https://doi.org/10.1109/thms.2022.3146787) | — | 大词表手语手势识别系统。 |
 | Sign Language Recognition Based on R(2+1)D With Spatial–Temporal–Channel Attention | Han et al. | `THMS` | [link](https://doi.org/10.1109/thms.2022.3144000) | — | 带时空通道注意力的 R(2+1)D 手语识别。 |
-| MDHandNet: a lightweight deep neural network for hand gesture/sign language recognition based on micro-doppler images | Yang et al. | `WWW` | [link](https://doi.org/10.1007/s11280-021-00985-1) | — | 基于微多普勒图像的轻量手势/手语识别网络。 |
+| MDHandNet: a lightweight deep neural network for hand gesture/sign language recognition based on micro-doppler images | Yang et al. | `World Wide Web (journal)` | [link](https://doi.org/10.1007/s11280-021-00985-1) | — | 基于微多普勒图像的轻量手势/手语识别网络。 |
 
 </details>
 
