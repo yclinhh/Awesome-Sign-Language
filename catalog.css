@@ -16,7 +16,7 @@
 body { margin: 0; }
 .wrap { width: min(1050px, calc(100% - 3rem)); margin-inline: auto; }
 a { color: #005c75; }
-a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, summary:focus-visible {
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible {
   outline: 3px solid #168475;
   outline-offset: 3px;
 }
@@ -62,7 +62,7 @@ button:disabled { opacity: .55; cursor: default; }
 .paper-list { list-style: none; margin: 0; padding: 0; display: grid; gap: .65rem; }
 .paper {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
   gap: .55rem 1rem;
   background: var(--surface);
   border: 1px solid var(--line);
@@ -77,19 +77,20 @@ button:disabled { opacity: .55; cursor: default; }
 .tier { background: #eeeafa; color: #46357a; padding: .1rem .4rem; border-radius: .3rem; font-weight: 750; }
 [data-tier="B"] .tier { background: #ddf4ed; color: #15554a; }
 .author { margin: 0; font-size: .9rem; color: var(--muted); }
-.paper-actions { display: flex; gap: .45rem; align-self: start; }
+.paper-actions { display: flex; flex-wrap: wrap; gap: .45rem; margin-top: .55rem; }
 .paper-actions a { display: inline-flex; align-items: center; justify-content: center; min-height: 2.5rem; min-width: 3.1rem; padding: .25rem .6rem; border: 1px solid #b6c9d2; border-radius: .4rem; font-size: .875rem; font-weight: 700; text-decoration: none; white-space: nowrap; }
 .paper-actions a:hover { text-decoration: underline; background: #edf6f8; }
 .paper-actions a:first-child { background: #e2f4ee; color: #005749; border-color: #a9d6ca; }
-.paper details { grid-column: 1 / -1; color: var(--muted); min-width: 0; }
-.paper summary { cursor: pointer; font-size: .875rem; padding-block: .25rem; width: fit-content; }
-.paper details p { margin: .35rem 0; overflow-wrap: anywhere; }
+.paper-description { border-inline-start: 1px solid var(--line); padding-inline-start: 1rem; min-width: 0; overflow-wrap: anywhere; }
+.paper-description p { margin: 0; }
+.paper-description .paper-datasets { margin-top: .45rem; color: var(--muted); font-size: .875rem; }
 #more { display: block; margin: 1rem auto 0; }
 
 @media (max-width: 720px) {
   .wrap { width: calc(100% - 1.6rem); }
   .selects { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .paper { grid-template-columns: minmax(0, 1fr); padding: .75rem; }
+  .paper-description { border-inline-start: 0; border-top: 1px solid var(--line); padding: .65rem 0 0; }
 }
 
 @media (max-width: 350px) {
