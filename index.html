@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="检索 Awesome Sign Language 收录的 CCF-A 和 CCF-B 手语研究论文。">
+  <title>手语论文检索 · Awesome Sign Language</title>
+  <link rel="stylesheet" href="catalog.css">
+  <script type="module" src="catalog.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#catalog">跳到论文检索</a>
+  <header class="masthead">
+    <div class="wrap">
+      <div class="brand-row">
+        <span class="brand" lang="en">Awesome Sign Language</span>
+        <a class="repo-link" href="https://github.com/yclinhh/Awesome-Sign-Language">GitHub 仓库</a>
+      </div>
+      <h1>手语论文检索</h1>
+      <p>在同一份索引中查找 CCF-A 与 CCF-B 手语论文。</p>
+    </div>
+  </header>
+
+  <main id="catalog" class="wrap" tabindex="-1">
+    <form id="filters" aria-label="论文筛选">
+      <fieldset id="filter-fields" disabled>
+        <label class="search-field" for="query">搜索论文
+          <input id="query" name="query" type="search" placeholder="例如 SignGraph、PHOENIX-2014T 或 Chen" autocomplete="off">
+        </label>
+        <div class="selects">
+          <label for="direction">研究方向<select id="direction" name="direction"><option value="">全部方向</option></select></label>
+          <label for="year">年份<select id="year" name="year"><option value="">全部年份</option></select></label>
+          <label for="tier">CCF 等级<select id="tier" name="tier"><option value="">全部等级</option><option value="A">CCF-A</option><option value="B">CCF-B</option></select></label>
+          <label for="venue">会议或期刊<select id="venue" name="venue"><option value="">全部来源</option></select></label>
+        </div>
+        <div class="filter-actions">
+          <label class="checkbox-label"><input type="checkbox" name="code"> 仅显示已标注代码</label>
+          <button id="clear-filters" type="button">清空筛选</button>
+        </div>
+      </fieldset>
+    </form>
+
+    <section class="results" aria-labelledby="results-title">
+      <div class="result-heading">
+        <h2 id="results-title" tabindex="-1">论文列表</h2>
+        <p id="status" role="status" aria-live="polite">正在加载论文…</p>
+      </div>
+      <noscript><p class="message">请启用 JavaScript，或打开 <a href="https://github.com/yclinhh/Awesome-Sign-Language">GitHub 论文清单</a>。</p></noscript>
+      <p id="empty" class="message" hidden></p>
+      <ul id="papers" class="paper-list"></ul>
+      <button id="more" type="button" hidden>显示更多论文</button>
+    </section>
+  </main>
+</body>
+</html>

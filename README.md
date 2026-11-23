@@ -4,6 +4,8 @@
 
 **A curated list of sign language papers published at CCF-A venues since 2021**
 
+**[Browse and filter papers / 检索论文](https://yclinhh.github.io/Awesome-Sign-Language/)**
+
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 ![Papers](https://img.shields.io/badge/CCF--A_papers-176-blue)
 [![CCF-B](https://img.shields.io/badge/CCF--B_list-204-purple)](CCF-B.md)
