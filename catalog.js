@@ -101,15 +101,17 @@ function paperRow(paper) {
     link.setAttribute("aria-label", name + "（新标签页）：" + paper.title);
     actions.append(link);
   }
-  if (actions.childElementCount) row.append(actions);
+  if (actions.childElementCount) main.append(actions);
 
   if (paper.datasets || paper.contribution) {
-    const details = element("details");
-    const label = paper.datasets && paper.contribution ? "数据集与贡献" : paper.datasets ? "数据集" : "研究贡献";
-    details.append(element("summary", label));
-    if (paper.datasets) details.append(element("p", "数据集：" + paper.datasets));
-    if (paper.contribution) details.append(element("p", paper.contribution));
-    row.append(details);
+    const description = element("div", "", "paper-description");
+    if (paper.contribution) description.append(element("p", paper.contribution));
+    if (paper.datasets) {
+      const datasets = element("p", "", "paper-datasets");
+      datasets.append(element("strong", "数据集"), " " + paper.datasets);
+      description.append(datasets);
+    }
+    row.append(description);
   }
   return row;
 }
