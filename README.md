@@ -5,9 +5,9 @@
 **A curated list of sign language papers published at CCF-A venues since 2021**
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Papers](https://img.shields.io/badge/CCF--A_papers-165-blue)
-[![CCF-B](https://img.shields.io/badge/CCF--B_list-198-purple)](CCF-B.md)
-![CCF-A](https://img.shields.io/badge/CCF--A-165-brightgreen)
+![Papers](https://img.shields.io/badge/CCF--A_papers-176-blue)
+[![CCF-B](https://img.shields.io/badge/CCF--B_list-204-purple)](CCF-B.md)
+![CCF-A](https://img.shields.io/badge/CCF--A-176-brightgreen)
 ![Years](https://img.shields.io/badge/years-2021--2026-orange)
 ![Updated](https://img.shields.io/badge/updated-2026--11--23-lightgrey)
 
@@ -25,21 +25,21 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 |---|---|---|---|---|---|---|---|
 | ISLR | · | 2 | 4 | 5 | 2 | 2 | **15** |
 | CSLR | 3 | 4 | 5 | 9 | 2 | 3 | **26** |
-| SLT | 13 | 10 | 8 | 9 | 6 | 8 | **54** |
+| SLT | 18 | 10 | 8 | 9 | 6 | 8 | **59** |
 | SLP | 8 | 5 | 2 | 2 | 3 | 3 | **23** |
-| Retrieval | 1 | · | 1 | 1 | 1 | · | **4** |
-| Others | 15 | 8 | 3 | 3 | 7 | 7 | **43** |
-| **Total** | **40** | **29** | **23** | **29** | **21** | **23** | **165** |
+| Retrieval | 2 | · | 1 | 1 | 1 | · | **5** |
+| Others | 20 | 8 | 3 | 3 | 7 | 7 | **48** |
+| **Total** | **51** | **29** | **23** | **29** | **21** | **23** | **176** |
 
 ## 📋 Contents
 
 - 🤟 [Isolated Sign Language Recognition (ISLR)](#-isolated-sign-language-recognition-islr) &nbsp;`15`
 - 🎬 [Continuous Sign Language Recognition (CSLR)](#-continuous-sign-language-recognition-cslr) &nbsp;`26`
-- 🔤 [Sign Language Translation (SLT)](#-sign-language-translation-slt) &nbsp;`54`
+- 🔤 [Sign Language Translation (SLT)](#-sign-language-translation-slt) &nbsp;`59`
 - 🧍 [Sign Language Production (SLP)](#-sign-language-production-slp) &nbsp;`23`
-- 🔍 [Sign Language Retrieval](#-sign-language-retrieval) &nbsp;`4`
-- 📚 [Others](#-others) &nbsp;`43`
-- ⭐ [CCF-B Venues](#-ccf-b-venues) &nbsp;`198`
+- 🔍 [Sign Language Retrieval](#-sign-language-retrieval) &nbsp;`5`
+- 📚 [Others](#-others) &nbsp;`48`
+- ⭐ [CCF-B Venues](#-ccf-b-venues) &nbsp;`204`
 - 📌 [Inclusion Criteria](#-inclusion-criteria)
 - 📰 [News](#-news)
 - 🤝 [Contributing](#-contributing)
@@ -186,7 +186,7 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 ## 🔤 Sign Language Translation (SLT)
 
 <details open>
-<summary><b>2026</b> &nbsp;·&nbsp; 13 papers</summary>
+<summary><b>2026</b> &nbsp;·&nbsp; 18 papers</summary>
 
 | Title | Authors | Venue | Paper | Code | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:-:|:--|:--|
@@ -203,6 +203,11 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 | SEN: Semantic-Enhanced Network for Gloss-Free Sign Language Translation | Liu et al. | `TMM` | [link](https://doi.org/10.1109/tmm.2026.3724355) | — | — | 语义增强的无 gloss 翻译网络。 |
 | SF-LLM: A Skeleton-Fused Multimodal Large Language Model for Sign Language Translation | Yuan et al. | `TMM` | [link](https://doi.org/10.1109/tmm.2026.3739476) | — | — | 把骨架信息融合进多模态大模型做手语翻译。 |
 | TRANSLATE: Temporal Disentanglement and Regularization for Test-Time Adaptation in Sign Language Translation | Wang et al. | `TMM` | [link](https://doi.org/10.1109/tmm.2026.3730967) | — | — | 时序解耦与正则化的测试时自适应翻译。 |
+| ReSCUE: Re-translation with Sentence Commitment for Unsegmented Long-Form Simultaneous Sign Language Translation | Ren et al. | `NeurIPS` | [link](https://neurips.cc/virtual/2026/poster/148549) | — | — | 以稳定重译和句子提交机制支持无预切分长视频的低延迟同时翻译。 |
+| SignDPO: Multi-level Direct Preference Optimisation for Skeleton-based Gloss-free Sign Language Translation | Pu et al. | `ACM MM` | [link](https://doi.org/10.1145/3767308.3835728) | — | CSL-Daily, How2Sign, OpenASL | 构造空间、时间与语言层面的偏好对，用分层偏好优化训练骨架手语翻译。 |
+| Toward In-the-Wild Gloss-Free Sign Language Translation via Domain-Adaptive Cross-Modal Alignment | Lai et al. | `ACM MM` | [link](https://doi.org/10.1145/3767308.3836586) | — | CSL-Daily, CE-CSL | 用分阶段域适应与纯背景正则化缓解真实场景中的背景捷径。 |
+| SignLlama: Enhancing Gloss-free Sign Language Translation by Prioritizing Visual Features for LLMs | Gan et al. | `ACM MM` | [link](https://doi.org/10.1145/3767308.3835002) | — | — | 用过滤后的伪 gloss 做 CTC 预训练，并向仅视觉的预测分支蒸馏，增强翻译对视觉线索的利用。 |
+| BADAF: A Bimodal-Aware Decoupled Aggregation Framework for Gloss-Free Sign Language Translation | Huang et al. | `TMM` | [link](https://doi.org/10.1109/TMM.2026.3753172) | — | PHOENIX-2014T, CSL-Daily, How2Sign, OpenASL | 分别对齐 RGB 与骨架表征和文本，再逐步融合两种模态的时空互补信息，用于无 gloss 翻译。 |
 
 </details>
 
@@ -367,11 +372,12 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 ## 🔍 Sign Language Retrieval
 
 <details open>
-<summary><b>2026</b> &nbsp;·&nbsp; 1 paper</summary>
+<summary><b>2026</b> &nbsp;·&nbsp; 2 papers</summary>
 
 | Title | Authors | Venue | Paper | Code | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:-:|:--|:--|
 | Semantic Hardness Is Not Visual Hardness: Sign-Aware Hard Negative Mining for Sign Language Retrieval | Lee et al. | `ACL` | [link](https://aclanthology.org/2026.acl-long.1302/) | — | — | 按视觉难度而非语义难度挖掘难负样本。 |
+| Kinematics-Centric Continuous Sign Language Retrieval with Gloss-Guided Boundary-Aware Alignment | Liu et al. | `ACM MM` | [link](https://doi.org/10.1145/3767308.3835973) | — | CSL-Daily, PHOENIX-2014T | 以 SMPL-X 动作为主要表征，借助 gloss 引导的边界对齐和训练时的 RGB 蒸馏做双向检索。 |
 
 </details>
 
@@ -409,7 +415,7 @@ Venue tiers follow the *CCF Recommended List of International Conferences and Jo
 Datasets & benchmarks, pre-training & representation learning, fingerspelling, sign language understanding & dialogue.
 
 <details open>
-<summary><b>2026</b> &nbsp;·&nbsp; 15 papers</summary>
+<summary><b>2026</b> &nbsp;·&nbsp; 20 papers</summary>
 
 | Title | Authors | Venue | Paper | Code | Datasets | Key Contribution |
 |:--|:--|:--|:-:|:-:|:--|:--|
@@ -428,6 +434,11 @@ Datasets & benchmarks, pre-training & representation learning, fingerspelling, s
 | MySign: A High-Fidelity Motion-Capture Dataset for 3D Sign Generation in Bahasa Isyarat Malaysia | Shen et al. | `NeurIPS (D&B)` | [link](https://openreview.net/forum?id=FMCB6LFtcc) | — | MySign | 马来西亚手语的高精度动作捕捉数据集，用于 3D 手语生成。 |
 | Deep Understanding of Sign Language for Sign to Subtitle Alignment | Jang et al. | `TMM` | [link](https://doi.org/10.1109/tmm.2026.3673520) | — | — | 利用手语理解做手语视频与字幕的对齐。 |
 | Isharah: A Large-Scale Multi-Scene Dataset for Continuous Sign Language Recognition | Alyami et al. | `TMM` | [link](https://doi.org/10.1109/tmm.2026.3664959) | — | Isharah | 多场景大规模连续手语识别数据集。 |
+| Sign-Language Datasets at Scale: A Comprehensive Survey on Resources, Benchmarks, and Annotation Standards | Ni et al. | `ACL` | [link](https://aclanthology.org/2026.acl-long.1928/) | — | — | 梳理 35 种手语的 120 项数据资源，提出用于标准化记录的手语数据说明表。 |
+| Bridging the Gap Between Semantics and Reconstruction: Unifying Sign Language Translation and Production | Liu et al. | `ACM MM` | [link](https://doi.org/10.1145/3767308.3835086) | — | — | 通过兼顾语义与动作重建的共享标记器和条件自回归模型，统一手语翻译与生成。 |
+| Seeing Semantic Shift: Difference-Aware Sentence-Level Temporal Segmentation of Sign Language Videos | Guo et al. | `ACM MM` | [link](https://doi.org/10.1145/3767308.3834983) | — | — | 结合多尺度帧间差分和句数预测，在无字幕的长手语视频中定位句子边界。 |
+| LexSign: Learning Sign Language from Lexical Descriptions | Min et al. | `IJCV` | [link](https://doi.org/10.1007/s11263-026-03075-9) | — | LexSign, LexSign-Bench | 构建手语词汇描述数据及评测基准，考察多模态模型在 gloss 与亚词层面的理解能力。 |
+| Sign4DAvatar: A Priori Decoder-Enhanced Transformer With Pose Smooth Filter for 4D Sign Avatar Recovery | Chen et al. | `TMM` | [link](https://doi.org/10.1109/TMM.2026.3724730) | — | PHOENIX-2014T, DCSL | 用时空先验注意力和姿态滤波从视频恢复 4D 手语化身，并为数据补充 SMPL-X 标注。 |
 
 </details>
 
@@ -503,7 +514,7 @@ Datasets & benchmarks, pre-training & representation learning, fingerspelling, s
 
 ## ⭐ CCF-B Venues
 
-Sign language papers at **CCF-B** conferences and journals (ECCV, EMNLP, NAACL, COLING, IJCAI, Interspeech, ICASSP, ICME, TCSVT, PR, CVIU, TOMM …) are maintained in a separate list: **[CCF-B.md](CCF-B.md)** — 198 papers, same layout as this page.
+Sign language papers at **CCF-B** conferences and journals (ECCV, EMNLP, NAACL, COLING, IJCAI, Interspeech, ICASSP, ICME, TCSVT, PR, CVIU, TOMM …) are maintained in a separate list: **[CCF-B.md](CCF-B.md)** — 204 papers, same layout as this page.
 
 ---
 
@@ -512,7 +523,7 @@ Sign language papers at **CCF-B** conferences and journals (ECCV, EMNLP, NAACL, 
 | Rule | Detail |
 |:--|:--|
 | **Time** | Published in 2021 or later. |
-| **Status** | Formally accepted or published (camera-ready / proceedings / journal issue). **No arXiv-only preprints.** Workshop papers, *Findings* papers, student abstracts and extended abstracts are not counted as main-venue papers. |
+| **Status** | Peer-reviewed full or regular papers with formal acceptance or publication evidence. Eligible conference special tracks are named in the Venue column. Workshop, *Findings*, demo, short papers, abstracts and preprint-only records are excluded. |
 | **Venue tier** | CCF-A per the 7th edition (March 2026). Tier is judged by the *current* edition, not the edition in force when the paper was published. |
 | **Conferences (CCF-A)** | CVPR, ICCV, ACM MM, AAAI, NeurIPS, ICML, ICLR, ACL, SIGKDD, WWW, SIGIR, CHI, CSCW, SIGGRAPH, IEEE VR |
 | **Journals (CCF-A)** | TPAMI, IJCV, TIP, TMM, AI, JMLR, TOG, TVCG |
@@ -522,6 +533,7 @@ Sign language papers at **CCF-B** conferences and journals (ECCV, EMNLP, NAACL, 
 
 ## 📰 News
 
+- **2026-11-23** — Added 11 CCF-A and 6 CCF-B papers from 2026 after checking official acceptance or publication records.
 - **2026-11-23** — Removed a duplicate CCF-B paper from the CCF-A list, clarified the World Wide Web journal label in the CCF-B list, and filled 13 verified paper links.
 - **2026-10-23** — CCF-B.md: added CogSci papers and a full OpenAlex cross-check (186 → 198).
 - **2026-10-23** — New companion list **[CCF-B.md](CCF-B.md)** with 186 papers from CCF-B venues; the former Other Top Venues section moved there.
@@ -540,6 +552,6 @@ PRs welcome. Please:
 
 1. Keep the table format and place the paper under the right year block.
 2. Check the venue tier against the **CCF 7th edition** before adding to a CCF-A section.
-3. Make sure the paper is **formally accepted** — no arXiv-only preprints.
+3. Link to formal acceptance or publication evidence and identify the track for eligible special-track papers.
 
 > Cells marked `—` mean the link has not been filled in yet, not that none exists — PRs adding them are especially welcome.
